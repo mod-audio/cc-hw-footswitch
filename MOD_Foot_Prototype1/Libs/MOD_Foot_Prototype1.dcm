@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 23/04/2014 16:06:02
+#
+$CMP AGM-2004A-204
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP CONN_PANNEL_2X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+#End Doc Library
