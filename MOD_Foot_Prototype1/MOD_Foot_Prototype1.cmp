@@ -4,637 +4,637 @@ BeginCmp
 TimeStamp = /53482C44;
 Reference = C1;
 ValeurCmp = 10uF;
-IdModule  = MODArduinoLib:CAP_RAD_5MM;
+IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53482C65;
 Reference = C2;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347721A;
 Reference = C3;
 ValeurCmp = 10uF;
-IdModule  = MODArduinoLib:CAP_RAD_5MM;
+IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347B9D0;
 Reference = C4;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534770ED;
 Reference = C5;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534770E7;
 Reference = C6;
 ValeurCmp = 100uF;
-IdModule  = MODArduinoLib:CAP_RAD_5MM;
+IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /534793DF;
 Reference = C7;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53479897;
 Reference = C8;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347749B;
 Reference = C9;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477227;
 Reference = C10;
 ValeurCmp = 18pF_NP0;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347727E;
 Reference = C11;
 ValeurCmp = 18pF_NP0;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477022;
 Reference = C12;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53476FC9;
 Reference = C13;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/53485F96;
 Reference = C14;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/53485FB5;
 Reference = C15;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/534861C6;
 Reference = C16;
 ValeurCmp = 100uF;
-IdModule  = MODArduinoLib:CAP_RAD_5MM;
+IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/53485FAF;
 Reference = C17;
 ValeurCmp = 100nF_X7R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534AEC1C;
 Reference = CN1;
 ValeurCmp = CONN_PANNEL_2X2;
-IdModule  = MODArduinoLib:CONN_PANNEL;
+IdModule  = MOD_Footprints_Lib:CONN_PANNEL;
 EndCmp
 
 BeginCmp
 TimeStamp = /534AEC33;
 Reference = CN2;
 ValeurCmp = CONN_PANNEL_2X2;
-IdModule  = MODArduinoLib:CONN_PANNEL;
+IdModule  = MOD_Footprints_Lib:CONN_PANNEL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53482C59;
 Reference = D1;
 ValeurCmp = CGRA4007-G;
-IdModule  = MODArduinoLib:DO-214AC(SMA);
+IdModule  = MOD_Footprints_Lib:DO-214AC(SMA);
 EndCmp
 
 BeginCmp
 TimeStamp = /53479CBA;
 Reference = D2;
 ValeurCmp = MMSZ5242B;
-IdModule  = MODArduinoLib:SOD123;
+IdModule  = MOD_Footprints_Lib:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /53479C92;
 Reference = D3;
 ValeurCmp = MMSZ5242B;
-IdModule  = MODArduinoLib:SOD123;
+IdModule  = MOD_Footprints_Lib:SOD123;
 EndCmp
 
 BeginCmp
 TimeStamp = /53483E7B;
 Reference = D4;
 ValeurCmp = 1N4148;
-IdModule  = MODArduinoLib:SOD323;
+IdModule  = MOD_Footprints_Lib:SOD323;
 EndCmp
 
 BeginCmp
 TimeStamp = /534A798F;
 Reference = FOOT1;
 ValeurCmp = HEADER_2X1_180;
-IdModule  = MODArduinoLib:PIN_ARRAY_2X1;
+IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /534A7C06;
 Reference = FOOT2;
 ValeurCmp = HEADER_2X1_180;
-IdModule  = MODArduinoLib:PIN_ARRAY_2X1;
+IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /534A7C0C;
 Reference = FOOT3;
 ValeurCmp = HEADER_2X1_180;
-IdModule  = MODArduinoLib:PIN_ARRAY_2X1;
+IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /534A7C12;
 Reference = FOOT4;
 ValeurCmp = HEADER_2X1_180;
-IdModule  = MODArduinoLib:PIN_ARRAY_2X1;
+IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /534776B4;
 Reference = J1;
 ValeurCmp = RJ45_CHAIN;
-IdModule  = MODArduinoLib:RJ45-RJHSE5084;
+IdModule  = MOD_Footprints_Lib:RJ45-RJHSE5084;
 EndCmp
 
 BeginCmp
 TimeStamp = /534776C3;
 Reference = J2;
 ValeurCmp = RJ45_CHAIN;
-IdModule  = MODArduinoLib:RJ45-RJHSE5084;
+IdModule  = MOD_Footprints_Lib:RJ45-RJHSE5084;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/534A26E5;
 Reference = LCD1;
 ValeurCmp = AGM-2004A-204;
-IdModule  = MODArduinoLib:LCD-AGM-2004A-204;
+IdModule  = MOD_Footprints_Lib:LCD-AGM-2004A-204;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347D716;
 Reference = LED1;
 ValeurCmp = LED_RGB;
-IdModule  = MODArduinoLib:LED_CLRTB_GFSF_1;
+IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DE79;
 Reference = LED2;
 ValeurCmp = LED_RGB;
-IdModule  = MODArduinoLib:LED_CLRTB_GFSF_1;
+IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DEA6;
 Reference = LED3;
 ValeurCmp = LED_RGB;
-IdModule  = MODArduinoLib:LED_CLRTB_GFSF_1;
+IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DED3;
 Reference = LED4;
 ValeurCmp = LED_RGB;
-IdModule  = MODArduinoLib:LED_CLRTB_GFSF_1;
+IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /534C5616;
 Reference = P1;
 ValeurCmp = HEADER_5X1;
-IdModule  = MODArduinoLib:PIN_ARRAY_5x1;
+IdModule  = MOD_Footprints_Lib:PIN_ARRAY_5x1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347E35E;
 Reference = P2;
 ValeurCmp = HEADER_5X2;
-IdModule  = MODArduinoLib:PIN_ARRAY_5x2;
+IdModule  = MOD_Footprints_Lib:PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477BE6;
 Reference = Q1;
 ValeurCmp = MMBT3904;
-IdModule  = MODArduinoLib:SOT23;
+IdModule  = MOD_Footprints_Lib:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477C09;
 Reference = Q2;
 ValeurCmp = MMBT3904;
-IdModule  = MODArduinoLib:SOT23;
+IdModule  = MOD_Footprints_Lib:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/53486408;
 Reference = Q3;
 ValeurCmp = MMBT3904;
-IdModule  = MODArduinoLib:SOT23;
+IdModule  = MOD_Footprints_Lib:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477D56;
 Reference = R1;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477D6B;
 Reference = R2;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477772;
 Reference = R3;
 ValeurCmp = 470R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347776C;
 Reference = R4;
 ValeurCmp = 470R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477766;
 Reference = R5;
 ValeurCmp = 470R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347774A;
 Reference = R6;
 ValeurCmp = 470R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347C8FB;
 Reference = R7;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347C8F5;
 Reference = R8;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347C8EF;
 Reference = R9;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347C8E9;
 Reference = R10;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534786BD;
 Reference = R11;
 ValeurCmp = 120R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /534799AE;
 Reference = R12;
 ValeurCmp = 10R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /534799C0;
 Reference = R13;
 ValeurCmp = 10R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347D723;
 Reference = R14;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347D73A;
 Reference = R15;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347D740;
 Reference = R16;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DE7F;
 Reference = R17;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DE85;
 Reference = R18;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DE8B;
 Reference = R19;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DEAC;
 Reference = R20;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DEB2;
 Reference = R21;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DEB8;
 Reference = R22;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DED9;
 Reference = R23;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DEDF;
 Reference = R24;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347DEE5;
 Reference = R25;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534794F1;
 Reference = R26;
 ValeurCmp = 0R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347988F;
 Reference = R27;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53479CCA;
 Reference = R28;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347AA26;
 Reference = R29;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347AA20;
 Reference = R30;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347AA1A;
 Reference = R31;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534846D0;
 Reference = R32;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53477457;
 Reference = R33;
 ValeurCmp = 10k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/5348666A;
 Reference = R34;
 ValeurCmp = 3k;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/53486664;
 Reference = R35;
 ValeurCmp = 330R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/53486423;
 Reference = R36;
 ValeurCmp = 1k;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/534A5820;
 Reference = R37;
 ValeurCmp = 0R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /534B036B;
 Reference = R38;
 ValeurCmp = 0R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /534ACBE2;
 Reference = R39;
 ValeurCmp = 0R;
-IdModule  = MODArduinoLib:SM0805;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /534AC720;
 Reference = R40;
 ValeurCmp = 100R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534AC71A;
 Reference = R41;
 ValeurCmp = 100R;
-IdModule  = MODArduinoLib:SM0603;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53482C5F;
 Reference = RT1;
 ValeurCmp = PTC_FUSE_500mA;
-IdModule  = MODArduinoLib:SM2920;
+IdModule  = MOD_Footprints_Lib:SM2920;
 EndCmp
 
 BeginCmp
 TimeStamp = /5347C2F2;
 Reference = TP1;
 ValeurCmp = CONN_1;
-IdModule  = MODArduinoLib:SIL-1;
+IdModule  = MOD_Footprints_Lib:SIL-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /534B143B;
 Reference = TP2;
 ValeurCmp = CONN_1;
-IdModule  = MODArduinoLib:SIL-1;
+IdModule  = MOD_Footprints_Lib:SIL-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /535772BD;
 Reference = TP3;
 ValeurCmp = CONN_1;
-IdModule  = MODArduinoLib:SIL-1;
+IdModule  = MOD_Footprints_Lib:SIL-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /53476FBA;
 Reference = U1;
 ValeurCmp = LPC111X_LQFP48;
-IdModule  = MODArduinoLib:LQFP48;
+IdModule  = MOD_Footprints_Lib:LQFP48;
 EndCmp
 
 BeginCmp
 TimeStamp = /53482BDF;
 Reference = U2;
 ValeurCmp = MC7805;
-IdModule  = MODArduinoLib:DPAK(369C);
+IdModule  = MOD_Footprints_Lib:DPAK(369C);
 EndCmp
 
 BeginCmp
 TimeStamp = /53477027;
 Reference = U3;
 ValeurCmp = NCP1117DT33G;
-IdModule  = MODArduinoLib:DPAK(369C);
+IdModule  = MOD_Footprints_Lib:DPAK(369C);
 EndCmp
 
 BeginCmp
 TimeStamp = /5347906A;
 Reference = U4;
 ValeurCmp = SN75176BDR;
-IdModule  = MODArduinoLib:SO8E;
+IdModule  = MOD_Footprints_Lib:SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/5348598F;
 Reference = U5;
 ValeurCmp = 74HC245;
-IdModule  = MODArduinoLib:TSSOP20;
+IdModule  = MOD_Footprints_Lib:TSSOP20;
 EndCmp
 
 BeginCmp
 TimeStamp = /53485BBD/53485F8E;
 Reference = U6;
 ValeurCmp = 74HC245;
-IdModule  = MODArduinoLib:TSSOP20;
+IdModule  = MOD_Footprints_Lib:TSSOP20;
 EndCmp
 
 BeginCmp
 TimeStamp = /534771E4;
 Reference = X1;
 ValeurCmp = 10MHz;
-IdModule  = MODArduinoLib:HC_49US;
+IdModule  = MOD_Footprints_Lib:HC_49US;
 EndCmp
 
 EndListe
