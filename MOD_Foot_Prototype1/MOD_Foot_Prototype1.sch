@@ -1083,29 +1083,29 @@ Text GLabel 10150 2200 2    50   Output ~ 0
 UC_LCD_BACK
 Text GLabel 7150 1850 0    50   Output ~ 0
 UC_LCD_E
-Text GLabel 7150 4050 0    50   Input ~ 0
+Text GLabel 7150 4050 0    50   Output ~ 0
 LED1_R
 Text GLabel 10150 2900 2    50   Input ~ 0
 LED1_G
-Text GLabel 7150 3250 0    50   Input ~ 0
+Text GLabel 7150 3250 0    50   Output ~ 0
 LED1_B
-Text GLabel 7150 2950 0    50   Input ~ 0
+Text GLabel 7150 2950 0    50   Output ~ 0
 LED2_R
-Text GLabel 7150 3050 0    50   Input ~ 0
+Text GLabel 7150 3050 0    50   Output ~ 0
 LED2_G
-Text GLabel 7150 2850 0    50   Input ~ 0
+Text GLabel 7150 2850 0    50   Output ~ 0
 LED2_B
-Text GLabel 7150 3950 0    50   Input ~ 0
+Text GLabel 7150 3950 0    50   Output ~ 0
 LED3_R
-Text GLabel 10150 2500 2    50   Input ~ 0
+Text GLabel 10150 2500 2    50   Output ~ 0
 LED3_G
-Text GLabel 7150 2350 0    50   Input ~ 0
+Text GLabel 7150 2350 0    50   Output ~ 0
 LED3_B
-Text GLabel 10150 2300 2    50   Input ~ 0
+Text GLabel 10150 2300 2    50   Output ~ 0
 LED4_R
-Text GLabel 10150 2400 2    50   Input ~ 0
+Text GLabel 10150 2400 2    50   Output ~ 0
 LED4_G
-Text GLabel 7150 2150 0    50   Input ~ 0
+Text GLabel 7150 2150 0    50   Output ~ 0
 LED4_B
 Text GLabel 10150 2800 2    50   Input ~ 0
 FOOT_1
@@ -1336,7 +1336,7 @@ F 3 "" H 2900 4650 60  0000 C CNN
 	1    2900 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6250 6450 3    50   Input ~ 0
+Text GLabel 6250 6450 3    50   Output ~ 0
 LED6
 $Comp
 L +5V #PWR047
