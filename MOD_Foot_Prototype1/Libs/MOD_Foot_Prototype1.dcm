@@ -10,4 +10,10 @@ D Symbole general de connecteur
 K CONN
 $ENDCMP
 #
+$CMP MAX13450E
+D 20Mbps RS485 transceiver with integrated switchable termination
+K RS485
+F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$ENDCMP
+#
 #End Doc Library
