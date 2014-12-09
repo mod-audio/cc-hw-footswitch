@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Ter 02 Dez 2014 16:23:35 BRST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Ter 09 Dez 2014 13:07:28 BRST
 
 BeginCmp
 TimeStamp = /53482C44;
 Reference = C1;
-ValeurCmp = 10uF;
+ValeurCmp = 100uF;
 IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
@@ -17,7 +17,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5347721A;
 Reference = C3;
-ValeurCmp = 10uF;
+ValeurCmp = 100uF;
 IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
@@ -141,14 +141,14 @@ IdModule  = MOD_Footprints_Lib:DO-214AC(SMA);
 EndCmp
 
 BeginCmp
-TimeStamp = /53479CBA;
+TimeStamp = /538F9A7D;
 Reference = D2;
 ValeurCmp = MMSZ5242B;
 IdModule  = MOD_Footprints_Lib:SOD123;
 EndCmp
 
 BeginCmp
-TimeStamp = /53479C92;
+TimeStamp = /538F9A06;
 Reference = D3;
 ValeurCmp = MMSZ5242B;
 IdModule  = MOD_Footprints_Lib:SOD123;
@@ -239,10 +239,10 @@ IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /534C5616;
+TimeStamp = /54871CD7;
 Reference = P1;
-ValeurCmp = HEADER_5X1;
-IdModule  = MOD_Footprints_Lib:PIN_ARRAY_5x1;
+ValeurCmp = HEADER_5X2;
+IdModule  = MOD_Footprints_Lib:PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
@@ -558,6 +558,20 @@ TimeStamp = /534AC71A;
 Reference = R41;
 ValeurCmp = 100R;
 IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54872F31;
+Reference = R42;
+ValeurCmp = 0R;
+IdModule  = MOD_Footprints_Lib:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54872D84;
+Reference = R43;
+ValeurCmp = 0R;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
