@@ -6,10 +6,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title ""
-Date "23 apr 2014"
+Title "MOD Footswitch Extensor"
+Date "Tue 09 Dec 2014"
 Rev ""
-Comp ""
+Comp "MOD - Musical Operating Devices"
 Comment1 ""
 Comment2 ""
 Comment3 ""

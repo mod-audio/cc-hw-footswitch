@@ -1,6 +1,6 @@
-update=21/04/2014 23:11:41
+update=Tue 09 Dec 2014 13:52:09 BRST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -33,10 +33,5 @@ LibName1=Libs/MOD_Foot_Prototype1
 [eeschema]
 version=1
 LibDir=
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=Libs/MOD_Foot_Prototype1
