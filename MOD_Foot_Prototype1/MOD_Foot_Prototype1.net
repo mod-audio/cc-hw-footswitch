@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/fsanches/devel/github_portalmod/mod-hw-footswitch/MOD_Foot_Prototype1/MOD_Foot_Prototype1.sch)
-    (date "Qua 10 Dez 2014 15:50:06 BRST")
+    (date "Qua 10 Dez 2014 16:09:07 BRST")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref J1)
@@ -102,13 +102,13 @@
       (tstamp 548742BE))
     (comp (ref R11)
       (value "100R 0.5W")
-      (footprint MOD_Footprints_Lib:SM0805)
+      (footprint MOD_Footprints_Lib:SM1210)
       (libsource (lib MOD_Foot_Prototype1) (part R))
       (sheetpath (names "/Control Chain/") (tstamps /548230A6/))
       (tstamp 54878D96))
     (comp (ref R2)
       (value "100R 0.5W")
-      (footprint MOD_Footprints_Lib:SM0805)
+      (footprint MOD_Footprints_Lib:SM1210)
       (libsource (lib MOD_Foot_Prototype1) (part R))
       (sheetpath (names "/Control Chain/") (tstamps /548230A6/))
       (tstamp 548797F7))
@@ -883,7 +883,7 @@
         (pin (num 2) (name K) (type passive)))))
   (libraries
     (library (logical MOD_Foot_Prototype1)
-      (uri /home/fsanches/devel/github_portalmod/mod-hw-footswitch/MOD_Foot_Prototype1/Libs/MOD_Foot_Prototype1.lib)))
+      (uri Libs/MOD_Foot_Prototype1.lib)))
   (nets
     (net (code 1) (name +5V)
       (node (ref U4) (pin 4))
