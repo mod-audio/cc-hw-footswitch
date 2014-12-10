@@ -1,91 +1,91 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Ter 09 Dez 2014 15:30:11 BRST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Qua 10 Dez 2014 15:25:28 BRST
 
 BeginCmp
-TimeStamp = /53482C44;
+TimeStamp = /54830571/54831966;
 Reference = C1;
 ValeurCmp = 100uF;
 IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /53482C65;
+TimeStamp = /54830571/54831987;
 Reference = C2;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347721A;
+TimeStamp = /54830571/54831912;
 Reference = C3;
 ValeurCmp = 100uF;
 IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347B9D0;
+TimeStamp = /54830571/5483193F;
 Reference = C4;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /534770ED;
+TimeStamp = /548230A6/5487B444;
 Reference = C5;
-ValeurCmp = 100nF_X7R;
-IdModule  = MOD_Footprints_Lib:SM0603;
+ValeurCmp = 100uF;
+IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /534770E7;
+TimeStamp = /54830571/548318FF;
 Reference = C6;
 ValeurCmp = 100uF;
 IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /534793DF;
+TimeStamp = /54830571/54831925;
 Reference = C7;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53479897;
+TimeStamp = /548230A6/5487B451;
 Reference = C8;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347749B;
+TimeStamp = /548305AB/54834759;
 Reference = C9;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477227;
+TimeStamp = /548305AB/54834738;
 Reference = C10;
 ValeurCmp = 18pF_NP0;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347727E;
+TimeStamp = /548305AB/5483474B;
 Reference = C11;
 ValeurCmp = 18pF_NP0;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477022;
+TimeStamp = /548305AB/54834718;
 Reference = C12;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53476FC9;
+TimeStamp = /548305AB/5483470B;
 Reference = C13;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
@@ -120,86 +120,86 @@ IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /534AEC1C;
+TimeStamp = /548230A6/54862208;
+Reference = C18;
+ValeurCmp = 100nF_X7R;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548305AB/54834801;
 Reference = CN1;
 ValeurCmp = CONN_PANNEL_2X2;
 IdModule  = MOD_Footprints_Lib:CONN_PANNEL;
 EndCmp
 
 BeginCmp
-TimeStamp = /534AEC33;
+TimeStamp = /548305AB/54834808;
 Reference = CN2;
 ValeurCmp = CONN_PANNEL_2X2;
 IdModule  = MOD_Footprints_Lib:CONN_PANNEL;
 EndCmp
 
 BeginCmp
-TimeStamp = /53482C59;
+TimeStamp = /54830571/54831979;
 Reference = D1;
 ValeurCmp = CGRA4007-G;
 IdModule  = MOD_Footprints_Lib:DO-214AC(SMA);
 EndCmp
 
 BeginCmp
-TimeStamp = /538F9A7D;
+TimeStamp = /548230A6/5483CEE1;
 Reference = D2;
 ValeurCmp = MMSZ5242B;
 IdModule  = MOD_Footprints_Lib:SOD123;
 EndCmp
 
 BeginCmp
-TimeStamp = /538F9A06;
+TimeStamp = /548230A6/5483CEDA;
 Reference = D3;
 ValeurCmp = MMSZ5242B;
 IdModule  = MOD_Footprints_Lib:SOD123;
 EndCmp
 
 BeginCmp
-TimeStamp = /53483E7B;
-Reference = D4;
-ValeurCmp = 1N4148;
-IdModule  = MOD_Footprints_Lib:SOD323;
-EndCmp
-
-BeginCmp
-TimeStamp = /534A798F;
+TimeStamp = /548308B0/548338BF;
 Reference = FOOT1;
 ValeurCmp = HEADER_2X1_180;
 IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /534A7C06;
+TimeStamp = /548308B0/548338C6;
 Reference = FOOT2;
 ValeurCmp = HEADER_2X1_180;
 IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /534A7C0C;
+TimeStamp = /548308B0/548338CD;
 Reference = FOOT3;
 ValeurCmp = HEADER_2X1_180;
 IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /534A7C12;
+TimeStamp = /548308B0/548338D4;
 Reference = FOOT4;
 ValeurCmp = HEADER_2X1_180;
 IdModule  = MOD_Footprints_Lib:PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /534776B4;
+TimeStamp = /548230A6/54831EDE;
 Reference = J1;
-ValeurCmp = RJ45_CHAIN;
+ValeurCmp = RJ45_CHAIN_MAIN;
 IdModule  = MOD_Footprints_Lib:RJ45-RJHSE5084;
 EndCmp
 
 BeginCmp
-TimeStamp = /534776C3;
+TimeStamp = /548230A6/54831EE5;
 Reference = J2;
-ValeurCmp = RJ45_CHAIN;
+ValeurCmp = RJ45_CHAIN_EXTENSION;
 IdModule  = MOD_Footprints_Lib:RJ45-RJHSE5084;
 EndCmp
 
@@ -211,58 +211,58 @@ IdModule  = MOD_Footprints_Lib:LCD-AGM-2004A-204;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347D716;
+TimeStamp = /548308B0/548337F2;
 Reference = LED1;
 ValeurCmp = LED_RGB;
 IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DE79;
+TimeStamp = /548308B0/54833817;
 Reference = LED2;
 ValeurCmp = LED_RGB;
 IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DEA6;
+TimeStamp = /548308B0/5483383C;
 Reference = LED3;
 ValeurCmp = LED_RGB;
 IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DED3;
+TimeStamp = /548308B0/54833861;
 Reference = LED4;
 ValeurCmp = LED_RGB;
 IdModule  = MOD_Footprints_Lib:LED_CLRTB_GFSF_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /54871CD7;
+TimeStamp = /548305AB/54878398;
 Reference = P1;
 ValeurCmp = HEADER_5X2;
 IdModule  = MOD_Footprints_Lib:PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347E35E;
+TimeStamp = /548305AB/5483476C;
 Reference = P2;
 ValeurCmp = HEADER_5X2;
 IdModule  = MOD_Footprints_Lib:PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477BE6;
+TimeStamp = /548230A6/54831F0E;
 Reference = Q1;
 ValeurCmp = MMBT3904;
 IdModule  = MOD_Footprints_Lib:SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477C09;
+TimeStamp = /548230A6/548855D8;
 Reference = Q2;
-ValeurCmp = MMBT3904;
+ValeurCmp = MMBT3906;
 IdModule  = MOD_Footprints_Lib:SOT23;
 EndCmp
 
@@ -274,231 +274,231 @@ IdModule  = MOD_Footprints_Lib:SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477D56;
+TimeStamp = /548230A6/54831F22;
 Reference = R1;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477D6B;
+TimeStamp = /548230A6/548797F7;
 Reference = R2;
-ValeurCmp = 1k;
-IdModule  = MOD_Footprints_Lib:SM0603;
+ValeurCmp = 100R 0.5W;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477772;
+TimeStamp = /548230A6/54831F01;
 Reference = R3;
 ValeurCmp = 470R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347776C;
+TimeStamp = /548230A6/54831EFA;
 Reference = R4;
 ValeurCmp = 470R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477766;
+TimeStamp = /548230A6/54831EF3;
 Reference = R5;
 ValeurCmp = 470R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347774A;
+TimeStamp = /548230A6/54831EEC;
 Reference = R6;
 ValeurCmp = 470R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347C8FB;
+TimeStamp = /548308B0/548337E5;
 Reference = R7;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347C8F5;
+TimeStamp = /548308B0/548337DE;
 Reference = R8;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347C8EF;
+TimeStamp = /548308B0/548337D7;
 Reference = R9;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347C8E9;
+TimeStamp = /548308B0/548337D0;
 Reference = R10;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /534786BD;
+TimeStamp = /548230A6/54878D96;
 Reference = R11;
-ValeurCmp = 120R;
+ValeurCmp = 100R 0.5W;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /534799AE;
+TimeStamp = /548230A6/5487B950;
 Reference = R12;
-ValeurCmp = 10R;
-IdModule  = MOD_Footprints_Lib:SM0805;
+ValeurCmp = 10k;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /534799C0;
+TimeStamp = /548230A6/5487C256;
 Reference = R13;
-ValeurCmp = 10R;
-IdModule  = MOD_Footprints_Lib:SM0805;
+ValeurCmp = 10k;
+IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347D723;
+TimeStamp = /548308B0/548337F9;
 Reference = R14;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347D73A;
+TimeStamp = /548308B0/54833800;
 Reference = R15;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347D740;
+TimeStamp = /548308B0/54833807;
 Reference = R16;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DE7F;
+TimeStamp = /548308B0/5483381E;
 Reference = R17;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DE85;
+TimeStamp = /548308B0/54833825;
 Reference = R18;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DE8B;
+TimeStamp = /548308B0/5483382C;
 Reference = R19;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DEAC;
+TimeStamp = /548308B0/54833843;
 Reference = R20;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DEB2;
+TimeStamp = /548308B0/5483384A;
 Reference = R21;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DEB8;
+TimeStamp = /548308B0/54833851;
 Reference = R22;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DED9;
+TimeStamp = /548308B0/54833868;
 Reference = R23;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DEDF;
+TimeStamp = /548308B0/5483386F;
 Reference = R24;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347DEE5;
+TimeStamp = /548308B0/54833876;
 Reference = R25;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /534794F1;
+TimeStamp = /54830571/54831932;
 Reference = R26;
 ValeurCmp = 0R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347988F;
+TimeStamp = /548230A6/54887E11;
 Reference = R27;
 ValeurCmp = 1k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53479CCA;
+TimeStamp = /548230A6/5487D2A4;
 Reference = R28;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347AA26;
+TimeStamp = /548230A6/5483CE8C;
 Reference = R29;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347AA20;
+TimeStamp = /548230A6/5486EA79;
 Reference = R30;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347AA1A;
+TimeStamp = /548230A6/5483CE85;
 Reference = R31;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /534846D0;
+TimeStamp = /548305AB/548347A7;
 Reference = R32;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53477457;
+TimeStamp = /548305AB/54834752;
 Reference = R33;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
@@ -533,108 +533,122 @@ IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /534B036B;
+TimeStamp = /54830571/548319C3;
 Reference = R38;
 ValeurCmp = 0R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /534ACBE2;
+TimeStamp = /548305AB/5483481F;
 Reference = R39;
 ValeurCmp = 0R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /534AC720;
+TimeStamp = /548305AB/54834816;
 Reference = R40;
 ValeurCmp = 100R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /534AC71A;
+TimeStamp = /548305AB/5483480F;
 Reference = R41;
 ValeurCmp = 100R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54872F31;
+TimeStamp = /548305AB/54879220;
 Reference = R42;
 ValeurCmp = 0R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54872D84;
+TimeStamp = /548305AB/548792F8;
 Reference = R43;
 ValeurCmp = 0R;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53482C5F;
-Reference = RT1;
-ValeurCmp = PTC_FUSE_500mA;
-IdModule  = MOD_Footprints_Lib:SM1210;
+TimeStamp = /548230A6/548742BE;
+Reference = R44;
+ValeurCmp = 0R/NC;
+IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5487403B;
-Reference = RT2;
+TimeStamp = /548305AB/548854D0;
+Reference = R45;
+ValeurCmp = 0R;
+IdModule  = MOD_Footprints_Lib:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54830571/54831980;
+Reference = RT1;
 ValeurCmp = PTC_FUSE_500mA;
 IdModule  = MOD_Footprints_Lib:SM2920;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347C2F2;
+TimeStamp = /54830571/5487783C;
+Reference = RT2;
+ValeurCmp = PTC_FUSE_500mA;
+IdModule  = MOD_Footprints_Lib:SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /54830571/5483194C;
 Reference = TP1;
 ValeurCmp = CONN_1;
 IdModule  = MOD_Footprints_Lib:SIL-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /534B143B;
+TimeStamp = /54830571/548319CC;
 Reference = TP2;
 ValeurCmp = CONN_1;
 IdModule  = MOD_Footprints_Lib:SIL-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /535772BD;
+TimeStamp = /54830571/548319D3;
 Reference = TP3;
 ValeurCmp = CONN_1;
 IdModule  = MOD_Footprints_Lib:SIL-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /53476FBA;
+TimeStamp = /548305AB/54834704;
 Reference = U1;
 ValeurCmp = LPC111X_LQFP48;
 IdModule  = MOD_Footprints_Lib:LQFP48;
 EndCmp
 
 BeginCmp
-TimeStamp = /53482BDF;
+TimeStamp = /54830571/54831959;
 Reference = U2;
 ValeurCmp = MC7805;
 IdModule  = MOD_Footprints_Lib:DPAK(369C);
 EndCmp
 
 BeginCmp
-TimeStamp = /53477027;
+TimeStamp = /54830571/548318F8;
 Reference = U3;
 ValeurCmp = NCP1117DT33G;
 IdModule  = MOD_Footprints_Lib:DPAK(369C);
 EndCmp
 
 BeginCmp
-TimeStamp = /5347906A;
+TimeStamp = /548230A6/5486176A;
 Reference = U4;
-ValeurCmp = SN75176BDR;
-IdModule  = MOD_Footprints_Lib:SO8E;
+ValeurCmp = MAX13450E;
+IdModule  = MOD_Footprints_Lib:TSSOP20;
 EndCmp
 
 BeginCmp
@@ -652,7 +666,7 @@ IdModule  = MOD_Footprints_Lib:TSSOP20;
 EndCmp
 
 BeginCmp
-TimeStamp = /534771E4;
+TimeStamp = /548305AB/54834731;
 Reference = X1;
 ValeurCmp = 10MHz;
 IdModule  = MOD_Footprints_Lib:HC_49US;
