@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/fsanches/devel/github_portalmod/mod-hw-footswitch/MOD_Foot_Prototype1/MOD_Foot_Prototype1.sch)
-    (date "Qua 10 Dez 2014 16:09:07 BRST")
+    (date "Qua 10 Dez 2014 18:21:07 BRST")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref J1)
