@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/fsanches/devel/github_portalmod/mod-hw-footswitch/MOD_Foot_Prototype1/MOD_Foot_Prototype1.sch)
-    (date "Qua 10 Dez 2014 15:24:56 BRST")
+    (date "Qua 10 Dez 2014 15:50:06 BRST")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref J1)
@@ -78,7 +78,7 @@
       (tstamp 5483CEE1))
     (comp (ref U4)
       (value MAX13450E)
-      (footprint MOD_Footprints_Lib:TSSOP20)
+      (footprint MOD_Footprints_Lib:TSSOP14)
       (libsource (lib MOD_Foot_Prototype1) (part MAX13450E))
       (sheetpath (names "/Control Chain/") (tstamps /548230A6/))
       (tstamp 5486176A))
