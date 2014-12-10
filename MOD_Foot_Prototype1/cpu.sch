@@ -232,7 +232,7 @@ TX_CHAIN
 Text GLabel 2650 3650 0    50   Input ~ 0
 RX_CHAIN
 Text GLabel 2650 3450 0    50   Output ~ 0
-EN_CHAIN
+TX_CHAIN_EN
 Text GLabel 2650 3950 0    50   Output ~ 0
 UC_LCD_RS
 Text GLabel 2650 2050 0    50   Output ~ 0
@@ -408,7 +408,7 @@ F 3 "" H 3750 5950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1300 6700 0    50   Input ~ 0
-EN_CHAIN
+TX_CHAIN_EN
 NoConn ~ 2850 2150
 NoConn ~ 2850 1750
 NoConn ~ 2850 3850
@@ -474,7 +474,7 @@ RX_CHAIN
 Text GLabel 2600 6600 2    50   Input ~ 0
 TX_CHAIN
 Text GLabel 2600 6700 2    50   Input ~ 0
-EN_CHAIN
+TX_CHAIN_EN
 $Comp
 L R R42
 U 1 1 54879220
@@ -716,4 +716,25 @@ Wire Wire Line
 Wire Wire Line
 	2500 5800 2500 6500
 Connection ~ 2500 6500
+$Comp
+L R R44
+U 1 1 548854D0
+P 1950 7000
+F 0 "R44" V 2030 7000 40  0000 C CNN
+F 1 "0R" V 1957 7001 40  0000 C CNN
+F 2 "MOD_Footprints_Lib:SM0805" V 1880 7000 30  0001 C CNN
+F 3 "~" H 1950 7000 30  0000 C CNN
+	1    1950 7000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 7000 1450 7000
+Wire Wire Line
+	1450 7000 1450 6700
+Connection ~ 1450 6700
+Wire Wire Line
+	2200 7000 2450 7000
+Wire Wire Line
+	2450 7000 2450 6700
+Connection ~ 2450 6700
 $EndSCHEMATC
