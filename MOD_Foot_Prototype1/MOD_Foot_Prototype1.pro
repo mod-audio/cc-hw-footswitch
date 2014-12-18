@@ -1,4 +1,4 @@
-update=Tue 09 Dec 2014 13:52:09 BRST
+update=Qui 18 Dez 2014 15:29:40 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -35,3 +35,16 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=Libs/MOD_Foot_Prototype1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Docs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
