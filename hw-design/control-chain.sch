@@ -139,9 +139,9 @@ $EndComp
 Text GLabel 1350 5100 0    50   Input ~ 0
 LED5
 Text GLabel 7000 1850 0    60   Input ~ 0
-RS485_RX+
+RS422_RX+
 Text GLabel 7000 2050 0    60   Input ~ 0
-RS485_RX-
+RS422_RX-
 $Comp
 L DGND #PWR04
 U 1 1 5483CE72
@@ -294,9 +294,9 @@ F 3 "~" H 9400 1750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7100 2750 0    60   Output ~ 0
-RS485_TX+
+RS422_TX+
 Text GLabel 7100 2950 0    60   Output ~ 0
-RS485_TX-
+RS422_TX-
 $Comp
 L DGND #PWR011
 U 1 1 54872FC6
@@ -331,13 +331,13 @@ F 3 "" H 10200 2450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 4400 2200 2    60   Output ~ 0
-RS485_TX+
+RS422_TX+
 Text GLabel 4400 2350 2    60   Output ~ 0
-RS485_TX-
+RS422_TX-
 Text GLabel 4400 2550 2    60   Input ~ 0
-RS485_RX+
+RS422_RX+
 Text GLabel 4400 2700 2    60   Input ~ 0
-RS485_RX-
+RS422_RX-
 $Comp
 L VCC #PWR013
 U 1 1 54878B0B
