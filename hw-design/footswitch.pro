@@ -10,7 +10,7 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-LastNetListRead=MOD_Foot_Prototype1.net
+LastNetListRead=footswitch.net
 UseCmpFile=1
 PadDrill=1.000000000000
 PadDrillOvalY=1.000000000000
@@ -29,12 +29,12 @@ BoardOutlineThickness=0.200000000000
 ModuleOutlineThickness=0.200000000000
 [pcbnew/libraries]
 LibDir=
-LibName1=Libs/MOD_Foot_Prototype1
+LibName1=libs/footswitch
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=Libs/MOD_Foot_Prototype1
+LibName1=libs/footswitch
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

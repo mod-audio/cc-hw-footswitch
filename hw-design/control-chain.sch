@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:MOD_Foot_Prototype1
-LIBS:MOD_Foot_Prototype1-cache
+LIBS:footswitch
+LIBS:footswitch-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
