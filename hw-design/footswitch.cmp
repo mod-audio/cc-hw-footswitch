@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Qua 17 Dez 2014 17:12:17 BRST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Qui 15 Jan 2015 20:06:52 BRST
 
 BeginCmp
 TimeStamp = /54830571/54831966;
@@ -122,6 +122,20 @@ EndCmp
 BeginCmp
 TimeStamp = /548230A6/54862208;
 Reference = C18;
+ValeurCmp = 100nF_X7R;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B24601;
+Reference = C19;
+ValeurCmp = 100uF;
+IdModule  = MOD_Footprints_Lib:CAP_RAD_5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B24607;
+Reference = C20;
 ValeurCmp = 100nF_X7R;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
@@ -253,6 +267,20 @@ IdModule  = MOD_Footprints_Lib:PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /548230A6/54B90A55;
+Reference = P3;
+ValeurCmp = CONN_8X2;
+IdModule  = MOD_Footprints_Lib:pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B90AC3;
+Reference = P4;
+ValeurCmp = CONN_8X2;
+IdModule  = MOD_Footprints_Lib:pin_array_8x2;
+EndCmp
+
+BeginCmp
 TimeStamp = /548230A6/54831F0E;
 Reference = Q1;
 ValeurCmp = MMBT3904;
@@ -274,9 +302,30 @@ IdModule  = MOD_Footprints_Lib:SOT23;
 EndCmp
 
 BeginCmp
+TimeStamp = /548230A6/54B4604A;
+Reference = Q4;
+ValeurCmp = MMBT3904;
+IdModule  = MOD_Footprints_Lib:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B46C13;
+Reference = Q5;
+ValeurCmp = MMBT3904;
+IdModule  = MOD_Footprints_Lib:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B9AB45;
+Reference = Q6;
+ValeurCmp = MMBT3904;
+IdModule  = MOD_Footprints_Lib:SOT23;
+EndCmp
+
+BeginCmp
 TimeStamp = /548230A6/54831F22;
 Reference = R1;
-ValeurCmp = 1k;
+ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
@@ -290,28 +339,28 @@ EndCmp
 BeginCmp
 TimeStamp = /548230A6/54831F01;
 Reference = R3;
-ValeurCmp = 470R;
+ValeurCmp = 1K2;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /548230A6/54831EFA;
 Reference = R4;
-ValeurCmp = 470R;
+ValeurCmp = 1K2;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /548230A6/54831EF3;
 Reference = R5;
-ValeurCmp = 470R;
+ValeurCmp = 1K2;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /548230A6/54831EEC;
 Reference = R6;
-ValeurCmp = 470R;
+ValeurCmp = 1K2;
 IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
@@ -351,14 +400,14 @@ IdModule  = MOD_Footprints_Lib:SM1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /548230A6/5487B950;
+TimeStamp = /548230A6/5487C256;
 Reference = R12;
 ValeurCmp = 100k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548230A6/5487C256;
+TimeStamp = /548230A6/5487B950;
 Reference = R13;
 ValeurCmp = 10k;
 IdModule  = MOD_Footprints_Lib:SM0603;
@@ -456,9 +505,9 @@ IdModule  = MOD_Footprints_Lib:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548230A6/54887E11;
+TimeStamp = /548230A6/54B51438;
 Reference = R27;
-ValeurCmp = 1k;
+ValeurCmp = 100k;
 IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
@@ -603,6 +652,55 @@ IdModule  = MOD_Footprints_Lib:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /548230A6/54AEF650;
+Reference = R48;
+ValeurCmp = 100k;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B52650;
+Reference = R49;
+ValeurCmp = 100k;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B4F078;
+Reference = R50;
+ValeurCmp = 10k;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B4EC56;
+Reference = R51;
+ValeurCmp = 10k;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B2461C;
+Reference = R52;
+ValeurCmp = 100k;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54B69C22;
+Reference = R53;
+ValeurCmp = 1k;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548230A6/54BA054E;
+Reference = R54;
+ValeurCmp = 10k;
+IdModule  = MOD_Footprints_Lib:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54830571/54831980;
 Reference = RT1;
 ValeurCmp = PTC_FUSE_500mA;
@@ -659,7 +757,7 @@ IdModule  = MOD_Footprints_Lib:DPAK(369C);
 EndCmp
 
 BeginCmp
-TimeStamp = /548230A6/5486176A;
+TimeStamp = /548230A6/54AC4A43;
 Reference = U4;
 ValeurCmp = MAX13450E;
 IdModule  = MOD_Footprints_Lib:TSSOP14;

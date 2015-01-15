@@ -30,11 +30,6 @@ ModuleOutlineThickness=0.200000000000
 [pcbnew/libraries]
 LibDir=
 LibName1=libs/footswitch
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=libs/footswitch
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -48,3 +43,9 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=libs/footswitch
+LibName2=conn

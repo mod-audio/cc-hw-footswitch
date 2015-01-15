@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:footswitch
+LIBS:conn
 LIBS:footswitch-cache
 EELAYER 25 0
 EELAYER END
