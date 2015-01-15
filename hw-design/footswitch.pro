@@ -1,4 +1,4 @@
-update=Tue 06 Jan 2015 05:55:52 PM BRST
+update=Qui 15 Jan 2015 19:02:17 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -30,10 +30,15 @@ ModuleOutlineThickness=0.200000000000
 [pcbnew/libraries]
 LibDir=
 LibName1=libs/footswitch
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=libs/footswitch
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=Docs/
+PlotDirectoryName=../docs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
@@ -43,8 +48,3 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=libs/footswitch
