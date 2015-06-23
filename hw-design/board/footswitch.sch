@@ -1,4 +1,11 @@
 EESchema Schematic File Version 2
+LIBS:conn
+LIBS:device
+LIBS:interface
+LIBS:power
+LIBS:regul
+LIBS:transistors
+LIBS:nxp_armmcu
 LIBS:footswitch-cache
 EELAYER 25 0
 EELAYER END
