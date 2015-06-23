@@ -6,6 +6,7 @@ LIBS:power
 LIBS:regul
 LIBS:transistors
 LIBS:nxp_armmcu
+LIBS:philips
 LIBS:footswitch-cache
 EELAYER 25 0
 EELAYER END

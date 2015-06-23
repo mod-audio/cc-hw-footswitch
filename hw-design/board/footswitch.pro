@@ -1,4 +1,4 @@
-update=Tue 23 Jun 2015 03:56:44 PM CEST
+update=Tue 23 Jun 2015 05:10:44 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,8 +6,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=footswitch.net
@@ -43,6 +41,8 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../libs
@@ -54,3 +54,4 @@ LibName4=kicad-library/library/power
 LibName5=kicad-library/library/regul
 LibName6=kicad-library/library/transistors
 LibName7=local-library/nxp_armmcu
+LibName8=local-library/philips

@@ -6,6 +6,7 @@ LIBS:power
 LIBS:regul
 LIBS:transistors
 LIBS:nxp_armmcu
+LIBS:philips
 LIBS:footswitch-cache
 EELAYER 25 0
 EELAYER END
@@ -24,24 +25,24 @@ $EndDescr
 $Comp
 L GNDD #PWR045
 U 1 1 54E5DFA7
-P 9200 3950
-F 0 "#PWR045" H 9200 3700 60  0001 C CNN
-F 1 "GNDD" H 9200 3800 60  0000 C CNN
-F 2 "" H 9200 3950 60  0000 C CNN
-F 3 "" H 9200 3950 60  0000 C CNN
-	1    9200 3950
+P 9200 4250
+F 0 "#PWR045" H 9200 4000 60  0001 C CNN
+F 1 "GNDD" H 9200 4100 60  0000 C CNN
+F 2 "" H 9200 4250 60  0000 C CNN
+F 3 "" H 9200 4250 60  0000 C CNN
+	1    9200 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_02X05 P3
 U 1 1 54F2A3AF
-P 9650 3650
-F 0 "P3" H 9650 3950 50  0000 C CNN
-F 1 "SWD" H 9650 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 9650 2450 60  0001 C CNN
-F 3 "" H 9650 2450 60  0000 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MPN"
-	1    9650 3650
+P 9650 3950
+F 0 "P3" H 9650 4250 50  0000 C CNN
+F 1 "SWD" H 9650 3650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 9650 2750 60  0001 C CNN
+F 3 "" H 9650 2750 60  0000 C CNN
+F 4 "-" H 0   300 50  0001 C CNN "MPN"
+	1    9650 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -450,9 +451,9 @@ F 3 "" H 9600 2550 60  0000 C CNN
 	1    9600 2550
 	-1   0    0    -1  
 $EndComp
-Text GLabel 10100 3850 2    50   Input ~ 0
+Text GLabel 10100 4150 2    50   Input ~ 0
 RESET
-Text Notes 9500 3250 0    100  ~ 0
+Text Notes 9500 3550 0    100  ~ 0
 SWD
 Text GLabel 7850 2200 2    50   Input ~ 0
 USB_VBUS
@@ -484,11 +485,11 @@ Text GLabel 1800 1200 2    50   Output ~ 0
 CHAIN_RX
 Text GLabel 1800 1100 2    50   Input ~ 0
 CHAIN_DE
-Text GLabel 10100 3650 2    50   Output ~ 0
+Text GLabel 10100 3950 2    50   Output ~ 0
 SWO
-Text GLabel 10100 3550 2    50   Input ~ 0
+Text GLabel 10100 3850 2    50   Input ~ 0
 SWCLK
-Text GLabel 10100 3450 2    50   BiDi ~ 0
+Text GLabel 10100 3750 2    50   BiDi ~ 0
 SWDIO
 Text GLabel 7850 1900 2    50   Input ~ 0
 RESET
@@ -502,8 +503,6 @@ Text Notes 9400 1000 0    100  ~ 0
 RESET
 Text GLabel 7850 2800 2    50   Output ~ 0
 SWO
-Text GLabel 7850 3000 2    50   Input ~ 0
-POT
 Text GLabel 3900 2800 0    50   Input ~ 0
 FS1
 Text GLabel 3900 2400 0    50   Input ~ 0
@@ -516,22 +515,22 @@ Text GLabel 7850 3700 2    50   Output ~ 0
 RX_LED
 Text GLabel 7850 3800 2    50   Output ~ 0
 TX_LED
-Text GLabel 3900 3300 0    50   Output ~ 0
-FS1_LED_R
-Text GLabel 3900 3400 0    50   Output ~ 0
-FS1_LED_G
-Text GLabel 3900 3500 0    50   Output ~ 0
-FS1_LED_B
+Text GLabel 7850 2400 2    50   Output ~ 0
+LEDS_SDA
+Text GLabel 7850 2300 2    50   Output ~ 0
+LEDS_SCL
+Text GLabel 7850 2600 2    50   Output ~ 0
+LEDS_OE
 Wire Wire Line
-	9200 3550 9200 3950
+	9200 3850 9200 4250
 Wire Wire Line
-	9900 3850 10100 3850
+	9900 4150 10100 4150
+Wire Wire Line
+	9200 4150 9400 4150
+Wire Wire Line
+	9200 3950 9400 3950
 Wire Wire Line
 	9200 3850 9400 3850
-Wire Wire Line
-	9200 3650 9400 3650
-Wire Wire Line
-	9200 3550 9400 3550
 Wire Wire Line
 	4100 4100 4050 4100
 Wire Wire Line
@@ -657,11 +656,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 1400 1700 1450
 Wire Wire Line
-	9900 3650 10100 3650
+	9900 3950 10100 3950
 Wire Wire Line
-	9900 3550 10100 3550
+	9900 3850 10100 3850
 Wire Wire Line
-	9900 3450 10100 3450
+	9900 3750 10100 3750
 Wire Wire Line
 	7850 2900 7700 2900
 Wire Wire Line
@@ -683,8 +682,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 2800 7700 2800
 Wire Wire Line
-	7850 3000 7700 3000
-Wire Wire Line
 	3900 2400 4100 2400
 Wire Wire Line
 	4100 2500 3900 2500
@@ -696,14 +693,8 @@ Wire Wire Line
 	7850 3700 7700 3700
 Wire Wire Line
 	7850 3800 7700 3800
-Wire Wire Line
-	4100 3300 3900 3300
-Wire Wire Line
-	3900 3400 4100 3400
-Wire Wire Line
-	4100 3500 3900 3500
-Connection ~ 9200 3650
-Connection ~ 9200 3850
+Connection ~ 9200 3950
+Connection ~ 9200 4150
 Connection ~ 3850 3900
 Connection ~ 3850 4200
 Connection ~ 5900 900 
@@ -719,19 +710,13 @@ Connection ~ 2050 6600
 Connection ~ 10000 1750
 Connection ~ 9600 1750
 NoConn ~ 3250 6400
+NoConn ~ 9400 4050
 NoConn ~ 9400 3750
-NoConn ~ 9400 3450
-NoConn ~ 9900 3750
+NoConn ~ 9900 4050
 NoConn ~ 4100 2700
-NoConn ~ 4100 2900
-NoConn ~ 4100 3000
-NoConn ~ 4100 3100
 NoConn ~ 4100 3200
 NoConn ~ 7700 2000
 NoConn ~ 7700 2100
-NoConn ~ 7700 2300
-NoConn ~ 7700 2400
-NoConn ~ 7700 2600
 NoConn ~ 7700 2700
 NoConn ~ 7700 3100
 NoConn ~ 7700 3200
@@ -743,4 +728,26 @@ NoConn ~ 7700 4000
 NoConn ~ 7700 4100
 NoConn ~ 7700 4200
 NoConn ~ 4100 2300
+Wire Wire Line
+	7700 2300 7850 2300
+Wire Wire Line
+	7850 2400 7700 2400
+Wire Wire Line
+	7850 2600 7700 2600
+Text GLabel 3900 2900 0    50   Input ~ 0
+FS2
+Wire Wire Line
+	4100 2900 3900 2900
+Text GLabel 3900 3000 0    50   Input ~ 0
+FS3
+Wire Wire Line
+	4100 3000 3900 3000
+Text GLabel 3900 3100 0    50   Input ~ 0
+FS4
+Wire Wire Line
+	4100 3100 3900 3100
+NoConn ~ 4100 3300
+NoConn ~ 4100 3400
+NoConn ~ 4100 3500
+NoConn ~ 7700 3000
 $EndSCHEMATC

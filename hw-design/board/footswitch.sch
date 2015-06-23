@@ -6,6 +6,7 @@ LIBS:power
 LIBS:regul
 LIBS:transistors
 LIBS:nxp_armmcu
+LIBS:philips
 LIBS:footswitch-cache
 EELAYER 25 0
 EELAYER END
@@ -46,7 +47,7 @@ F0 "I/O" 60
 F1 "io.sch" 60
 $EndSheet
 $Sheet
-S 800  4050 1450 550 
+S 800  4150 1450 550 
 U 53485BBD
 F0 "Display" 60
 F1 "display.sch" 60
