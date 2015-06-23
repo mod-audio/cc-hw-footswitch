@@ -1,3 +1,42 @@
 [submodule "hw-design/libs/mod-kicad-footprints"]
 	path = hw-design/libs/mod-kicad-footprints
 	url = https://github.com/portalmod/mod-kicad-footprints.git
+[submodule "hw-design/libs/kicad-library"]
+	path = hw-design/libs/kicad-library
+	url = git@github.com:KiCad/kicad-library.git
+[submodule "hw-design/libs/Capacitors_SMD.pretty"]
+	path = hw-design/libs/Capacitors_SMD.pretty
+	url = git@github.com:KiCad/Capacitors_SMD.pretty.git
+[submodule "hw-design/libs/Diodes_SMD.pretty"]
+	path = hw-design/libs/Diodes_SMD.pretty
+	url = git@github.com:KiCad/Diodes_SMD.pretty.git
+[submodule "hw-design/libs/LEDs.pretty"]
+	path = hw-design/libs/LEDs.pretty
+	url = git@github.com:KiCad/LEDs.pretty.git
+[submodule "hw-design/libs/Connect.pretty"]
+	path = hw-design/libs/Connect.pretty
+	url = git@github.com:KiCad/Connect.pretty.git
+[submodule "hw-design/libs/Pin_Headers.pretty"]
+	path = hw-design/libs/Pin_Headers.pretty
+	url = git@github.com:KiCad/Pin_Headers.pretty.git
+[submodule "hw-design/libs/Housings_SOT-23_SOT-143_TSOT-6.pretty"]
+	path = hw-design/libs/Housings_SOT-23_SOT-143_TSOT-6.pretty
+	url = git@github.com:KiCad/Housings_SOT-23_SOT-143_TSOT-6.pretty.git
+[submodule "hw-design/libs/Resistors_SMD.pretty"]
+	path = hw-design/libs/Resistors_SMD.pretty
+	url = git@github.com:KiCad/Resistors_SMD.pretty.git
+[submodule "hw-design/libs/Buttons_Switches_SMD.pretty"]
+	path = hw-design/libs/Buttons_Switches_SMD.pretty
+	url = git@github.com:KiCad/Buttons_Switches_SMD.pretty.git
+[submodule "hw-design/libs/SMD_Packages.pretty"]
+	path = hw-design/libs/SMD_Packages.pretty
+	url = git@github.com:KiCad/SMD_Packages.pretty.git
+[submodule "hw-design/libs/Housings_SOIC.pretty"]
+	path = hw-design/libs/Housings_SOIC.pretty
+	url = git@github.com:KiCad/Housings_SOIC.pretty.git
+[submodule "hw-design/libs/Housings_QFP.pretty"]
+	path = hw-design/libs/Housings_QFP.pretty
+	url = git@github.com:KiCad/Housings_QFP.pretty.git
+[submodule "hw-design/libs/Crystals.pretty"]
+	path = hw-design/libs/Crystals.pretty
+	url = git@github.com:KiCad/Crystals.pretty.git

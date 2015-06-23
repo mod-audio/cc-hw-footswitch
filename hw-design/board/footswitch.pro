@@ -1,4 +1,4 @@
-update=Tue 23 Jun 2015 03:43:46 PM CEST
+update=Tue 23 Jun 2015 03:56:44 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,7 +33,7 @@ LibName1=libs/footswitch
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../docs/
+PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
@@ -45,6 +45,12 @@ RptLab=1
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../libs
 [eeschema/libraries]
-LibName1=../libs/footswitch
+LibName1=kicad-library/library/conn
+LibName2=kicad-library/library/device
+LibName3=kicad-library/library/interface
+LibName4=kicad-library/library/power
+LibName5=kicad-library/library/regul
+LibName6=kicad-library/library/transistors
+LibName7=local-library/nxp_armmcu
