@@ -522,6 +522,34 @@ Text GLabel 7850 2300 2    50   Output ~ 0
 LEDS_SCL
 Text GLabel 7850 2600 2    50   Output ~ 0
 LEDS_OE
+Text GLabel 3900 2900 0    50   Input ~ 0
+FS2
+Text GLabel 3900 3000 0    50   Input ~ 0
+FS3
+Text GLabel 3900 3100 0    50   Input ~ 0
+FS4
+Text GLabel 7850 3000 2    50   BiDi ~ 0
+LCD_D7
+Text GLabel 7850 3100 2    50   BiDi ~ 0
+LCD_D6
+Text GLabel 7850 3200 2    50   BiDi ~ 0
+LCD_D5
+Text GLabel 7850 3300 2    50   BiDi ~ 0
+LCD_D4
+Text GLabel 7850 3900 2    50   Output ~ 0
+LCD_RS
+Text GLabel 7850 4000 2    50   Output ~ 0
+LCD_RW
+Text GLabel 7850 4100 2    50   Output ~ 0
+LCD1_EN
+Text GLabel 7850 4200 2    50   Output ~ 0
+LCD2_EN
+Text GLabel 7850 3500 2    50   Output ~ 0
+LCD1_BL
+Text GLabel 7850 3600 2    50   Output ~ 0
+LCD2_BL
+Text GLabel 7850 2700 2    50   Output ~ 0
+LCD_CONTRAST
 Wire Wire Line
 	9200 3850 9200 4250
 Wire Wire Line
@@ -694,6 +722,40 @@ Wire Wire Line
 	7850 3700 7700 3700
 Wire Wire Line
 	7850 3800 7700 3800
+Wire Wire Line
+	7700 2300 7850 2300
+Wire Wire Line
+	7850 2400 7700 2400
+Wire Wire Line
+	7850 2600 7700 2600
+Wire Wire Line
+	4100 2900 3900 2900
+Wire Wire Line
+	4100 3000 3900 3000
+Wire Wire Line
+	4100 3100 3900 3100
+Wire Wire Line
+	7850 3000 7700 3000
+Wire Wire Line
+	7700 3100 7850 3100
+Wire Wire Line
+	7850 3200 7700 3200
+Wire Wire Line
+	7700 3300 7850 3300
+Wire Wire Line
+	7700 3900 7850 3900
+Wire Wire Line
+	7850 4000 7700 4000
+Wire Wire Line
+	7700 4100 7850 4100
+Wire Wire Line
+	7850 4200 7700 4200
+Wire Wire Line
+	7700 2700 7850 2700
+Wire Wire Line
+	7850 3500 7700 3500
+Wire Wire Line
+	7700 3600 7850 3600
 Connection ~ 9200 3950
 Connection ~ 9200 4150
 Connection ~ 3850 3900
@@ -719,69 +781,7 @@ NoConn ~ 4100 3200
 NoConn ~ 7700 2000
 NoConn ~ 7700 2100
 NoConn ~ 4100 2300
-Wire Wire Line
-	7700 2300 7850 2300
-Wire Wire Line
-	7850 2400 7700 2400
-Wire Wire Line
-	7850 2600 7700 2600
-Text GLabel 3900 2900 0    50   Input ~ 0
-FS2
-Wire Wire Line
-	4100 2900 3900 2900
-Text GLabel 3900 3000 0    50   Input ~ 0
-FS3
-Wire Wire Line
-	4100 3000 3900 3000
-Text GLabel 3900 3100 0    50   Input ~ 0
-FS4
-Wire Wire Line
-	4100 3100 3900 3100
 NoConn ~ 4100 3300
 NoConn ~ 4100 3400
 NoConn ~ 4100 3500
-Text GLabel 7850 3000 2    50   BiDi ~ 0
-LCD_D7
-Text GLabel 7850 3100 2    50   BiDi ~ 0
-LCD_D6
-Text GLabel 7850 3200 2    50   BiDi ~ 0
-LCD_D5
-Text GLabel 7850 3300 2    50   BiDi ~ 0
-LCD_D4
-Text GLabel 7850 3900 2    50   Output ~ 0
-LCD_RS
-Text GLabel 7850 4000 2    50   Output ~ 0
-LCD_RW
-Text GLabel 7850 4100 2    50   Output ~ 0
-LCD1_EN
-Text GLabel 7850 4200 2    50   Output ~ 0
-LCD2_EN
-Text GLabel 7850 3500 2    50   Output ~ 0
-LCD1_BL
-Text GLabel 7850 3600 2    50   Output ~ 0
-LCD2_BL
-Text GLabel 7850 2700 2    50   Output ~ 0
-LCD_CONTRAST
-Wire Wire Line
-	7850 3000 7700 3000
-Wire Wire Line
-	7700 3100 7850 3100
-Wire Wire Line
-	7850 3200 7700 3200
-Wire Wire Line
-	7700 3300 7850 3300
-Wire Wire Line
-	7700 3900 7850 3900
-Wire Wire Line
-	7850 4000 7700 4000
-Wire Wire Line
-	7700 4100 7850 4100
-Wire Wire Line
-	7850 4200 7700 4200
-Wire Wire Line
-	7700 2700 7850 2700
-Wire Wire Line
-	7850 3500 7700 3500
-Wire Wire Line
-	7700 3600 7850 3600
 $EndSCHEMATC
