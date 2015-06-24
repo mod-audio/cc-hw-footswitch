@@ -1,4 +1,4 @@
-update=Tue 23 Jun 2015 05:10:44 PM CEST
+update=Wed 24 Jun 2015 10:39:51 AM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -53,5 +53,6 @@ LibName3=kicad-library/library/interface
 LibName4=kicad-library/library/power
 LibName5=kicad-library/library/regul
 LibName6=kicad-library/library/transistors
-LibName7=local-library/nxp_armmcu
-LibName8=local-library/philips
+LibName7=kicad-library/library/display
+LibName8=local-library/nxp_armmcu
+LibName9=local-library/philips

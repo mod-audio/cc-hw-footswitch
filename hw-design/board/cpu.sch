@@ -5,6 +5,7 @@ LIBS:interface
 LIBS:power
 LIBS:regul
 LIBS:transistors
+LIBS:display
 LIBS:nxp_armmcu
 LIBS:philips
 LIBS:footswitch-cache
@@ -717,16 +718,6 @@ NoConn ~ 4100 2700
 NoConn ~ 4100 3200
 NoConn ~ 7700 2000
 NoConn ~ 7700 2100
-NoConn ~ 7700 2700
-NoConn ~ 7700 3100
-NoConn ~ 7700 3200
-NoConn ~ 7700 3300
-NoConn ~ 7700 3500
-NoConn ~ 7700 3600
-NoConn ~ 7700 3900
-NoConn ~ 7700 4000
-NoConn ~ 7700 4100
-NoConn ~ 7700 4200
 NoConn ~ 4100 2300
 Wire Wire Line
 	7700 2300 7850 2300
@@ -749,5 +740,48 @@ Wire Wire Line
 NoConn ~ 4100 3300
 NoConn ~ 4100 3400
 NoConn ~ 4100 3500
-NoConn ~ 7700 3000
+Text GLabel 7850 3000 2    50   BiDi ~ 0
+LCD_D7
+Text GLabel 7850 3100 2    50   BiDi ~ 0
+LCD_D6
+Text GLabel 7850 3200 2    50   BiDi ~ 0
+LCD_D5
+Text GLabel 7850 3300 2    50   BiDi ~ 0
+LCD_D4
+Text GLabel 7850 3900 2    50   Output ~ 0
+LCD_RS
+Text GLabel 7850 4000 2    50   Output ~ 0
+LCD_RW
+Text GLabel 7850 4100 2    50   Output ~ 0
+LCD1_EN
+Text GLabel 7850 4200 2    50   Output ~ 0
+LCD2_EN
+Text GLabel 7850 3500 2    50   Output ~ 0
+LCD1_BL
+Text GLabel 7850 3600 2    50   Output ~ 0
+LCD2_BL
+Text GLabel 7850 2700 2    50   Output ~ 0
+LCD_CONTRAST
+Wire Wire Line
+	7850 3000 7700 3000
+Wire Wire Line
+	7700 3100 7850 3100
+Wire Wire Line
+	7850 3200 7700 3200
+Wire Wire Line
+	7700 3300 7850 3300
+Wire Wire Line
+	7700 3900 7850 3900
+Wire Wire Line
+	7850 4000 7700 4000
+Wire Wire Line
+	7700 4100 7850 4100
+Wire Wire Line
+	7850 4200 7700 4200
+Wire Wire Line
+	7700 2700 7850 2700
+Wire Wire Line
+	7850 3500 7700 3500
+Wire Wire Line
+	7700 3600 7850 3600
 $EndSCHEMATC

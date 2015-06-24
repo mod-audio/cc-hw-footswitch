@@ -40,3 +40,6 @@
 [submodule "hw-design/libs/Crystals.pretty"]
 	path = hw-design/libs/Crystals.pretty
 	url = git@github.com:KiCad/Crystals.pretty.git
+[submodule "hw-design/libs/Display.pretty"]
+	path = hw-design/libs/Display.pretty
+	url = git@github.com:KiCad/Display.pretty.git

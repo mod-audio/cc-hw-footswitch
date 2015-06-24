@@ -5,6 +5,7 @@ LIBS:interface
 LIBS:power
 LIBS:regul
 LIBS:transistors
+LIBS:display
 LIBS:nxp_armmcu
 LIBS:philips
 LIBS:footswitch-cache
