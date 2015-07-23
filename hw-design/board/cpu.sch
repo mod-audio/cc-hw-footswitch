@@ -506,12 +506,6 @@ Text GLabel 7850 2800 2    50   Output ~ 0
 SWO
 Text GLabel 7850 2000 2    50   Input ~ 0
 FS1
-Text GLabel 3950 2400 0    50   Input ~ 0
-CH1
-Text GLabel 3950 2500 0    50   Input ~ 0
-CH2
-Text GLabel 3950 2600 0    50   Input ~ 0
-CH3
 Text GLabel 7850 3700 2    50   Output ~ 0
 RX_LED
 Text GLabel 7850 3800 2    50   Output ~ 0
@@ -711,12 +705,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 2800 7700 2800
 Wire Wire Line
-	3950 2400 4100 2400
-Wire Wire Line
-	4100 2500 3950 2500
-Wire Wire Line
-	3950 2600 4100 2600
-Wire Wire Line
 	7700 2000 7850 2000
 Wire Wire Line
 	7850 3700 7700 3700
@@ -812,4 +800,7 @@ F 3 "" H 4350 6900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4350 6900 4350 6850
+NoConn ~ 4100 2400
+NoConn ~ 4100 2500
+NoConn ~ 4100 2600
 $EndSCHEMATC
