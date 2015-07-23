@@ -57,6 +57,6 @@ $Sheet
 S 800  5050 1450 550 
 U 55B0CAF6
 F0 "Mechanic" 60
-F1 "Mechanic.sch" 60
+F1 "mechanic.sch" 60
 $EndSheet
 $EndSCHEMATC
