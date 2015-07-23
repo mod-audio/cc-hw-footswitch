@@ -1,4 +1,4 @@
-update=Wed 24 Jun 2015 10:39:51 AM CEST
+update=Thu 23 Jul 2015 07:13:00 PM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,28 +6,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=footswitch.net
-UseCmpFile=1
-PadDrill=1.000000000000
-PadDrillOvalY=1.000000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.200000000000
-ModuleOutlineThickness=0.200000000000
-[pcbnew/libraries]
-LibDir=
-LibName1=libs/footswitch
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -45,7 +23,7 @@ LabSize=60
 version=1
 [eeschema]
 version=1
-LibDir=../libs
+LibDir=../lib
 [eeschema/libraries]
 LibName1=kicad-library/library/conn
 LibName2=kicad-library/library/device
@@ -56,3 +34,23 @@ LibName6=kicad-library/library/transistors
 LibName7=kicad-library/library/display
 LibName8=local-library/nxp_armmcu
 LibName9=local-library/philips
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=footswitch.net
+UseCmpFile=0
+PadDrill=0.762
+PadDrillOvalY=0.762
+PadSizeH=1.524
+PadSizeV=1.524
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.15
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
