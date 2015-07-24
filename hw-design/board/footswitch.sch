@@ -13,7 +13,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title "MOD Footswitch Extensor"
 Date "Tue 09 Dec 2014"
 Rev ""
@@ -48,15 +48,27 @@ F0 "I/O" 60
 F1 "io.sch" 60
 $EndSheet
 $Sheet
-S 800  4150 1450 550 
+S 2500 800  1450 550 
 U 53485BBD
 F0 "Display" 60
 F1 "display.sch" 60
 $EndSheet
 $Sheet
-S 800  5050 1450 550 
+S 2500 1600 1450 550 
 U 55B0CAF6
 F0 "Mechanic" 60
 F1 "mechanic.sch" 60
+$EndSheet
+$Sheet
+S 2500 2400 1450 550 
+U 55B25118
+F0 "Rear Board" 60
+F1 "rear-board.sch" 60
+$EndSheet
+$Sheet
+S 2500 3250 1450 550 
+U 55B4D84D
+F0 "USB" 60
+F1 "usb.sch" 60
 $EndSheet
 $EndSCHEMATC
