@@ -91,19 +91,15 @@ Text GLabel 3000 1600 2    50   Output ~ 0
 RJ45_RX-
 Text GLabel 4500 3500 2    50   Output ~ 0
 CC_OUTPUT_DET
-Text GLabel 8150 1350 0    50   Input ~ 0
+Text GLabel 8150 1650 0    50   Input ~ 0
 RJ45_RX+
-Text GLabel 8150 1450 0    50   Input ~ 0
+Text GLabel 8150 1750 0    50   Input ~ 0
 RJ45_RX-
-Text GLabel 8150 1750 0    50   Output ~ 0
+Text GLabel 8150 2050 0    50   Output ~ 0
 RJ45_TX+
-Text GLabel 8150 1650 0    50   Output ~ 0
+Text GLabel 8150 1950 0    50   Output ~ 0
 RJ45_TX-
-Text GLabel 8150 2650 0    50   Input ~ 0
-RJ45_POWER_INPUT
-Text GLabel 8150 2750 0    50   Input ~ 0
-RJ45_POWER_INPUT
-Text GLabel 8150 1950 0    50   Input ~ 0
+Text GLabel 8150 2250 0    50   Input ~ 0
 USB_PLUG_VCC
 $Comp
 L R R35
@@ -184,79 +180,67 @@ Text GLabel 3100 5900 0    50   Input ~ 0
 CC_OUTPUT_DET
 Text Notes 8100 900  0    100  ~ 0
 BOARDS CONNECTORS
-Text GLabel 8150 2450 0    50   Output ~ 0
-RX_LED
-Text GLabel 8150 2350 0    50   Output ~ 0
-TX_LED
-Text GLabel 9650 1350 2    50   Output ~ 0
+Text GLabel 9650 1650 2    50   Output ~ 0
 RS485_RX+
-Text GLabel 9650 1450 2    50   Output ~ 0
+Text GLabel 9650 1750 2    50   Output ~ 0
 RS485_RX-
-Text GLabel 9650 1750 2    50   Input ~ 0
+Text GLabel 9650 2050 2    50   Input ~ 0
 RS485_TX+
-Text GLabel 9650 1650 2    50   Input ~ 0
+Text GLabel 9650 1950 2    50   Input ~ 0
 RS485_TX-
-Text GLabel 9650 2450 2    50   Input ~ 0
-RX_LED_CPU
-Text GLabel 9650 2350 2    50   Input ~ 0
-TX_LED_CPU
-Text GLabel 9650 2650 2    50   Output ~ 0
-POWER_INPUT
-Text GLabel 9650 2750 2    50   Output ~ 0
-POWER_INPUT
 NoConn ~ 8850 5350
 $Comp
-L CONN_01X16 P7
+L CONN_01X12 P7
 U 1 1 55B42C87
-P 8550 2100
-F 0 "P7" H 8550 2950 50  0000 C CNN
-F 1 "CONN_01X16" V 8650 2100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x16" H 8550 2100 60  0001 C CNN
-F 3 "" H 8550 2100 60  0000 C CNN
-	1    8550 2100
+P 8550 2000
+F 0 "P7" H 8550 2650 50  0000 C CNN
+F 1 "CONN_01X12" V 8650 2000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 8550 2000 60  0001 C CNN
+F 3 "" H 8550 2000 60  0000 C CNN
+	1    8550 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X16 P9
+L CONN_01X12 P9
 U 1 1 55B42DAB
-P 9250 2100
-F 0 "P9" H 9250 2950 50  0000 C CNN
-F 1 "CONN_01X16" V 9350 2100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x16" H 9250 2100 60  0001 C CNN
-F 3 "" H 9250 2100 60  0000 C CNN
-	1    9250 2100
+P 9250 2000
+F 0 "P9" H 9250 2650 50  0000 C CNN
+F 1 "CONN_01X12" V 9350 2000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x12" H 9250 2000 60  0001 C CNN
+F 3 "" H 9250 2000 60  0000 C CNN
+	1    9250 2000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8150 2050 0    50   BiDi ~ 0
+Text GLabel 8150 2350 0    50   BiDi ~ 0
 USB_DM
-Text GLabel 8150 2150 0    50   BiDi ~ 0
+Text GLabel 8150 2450 0    50   BiDi ~ 0
 USB_DP
-Text GLabel 9650 2050 2    50   BiDi ~ 0
+Text GLabel 9650 2350 2    50   BiDi ~ 0
 USB_DM_CPU
-Text GLabel 9650 2150 2    50   BiDi ~ 0
+Text GLabel 9650 2450 2    50   BiDi ~ 0
 USB_DP_CPU
-Text GLabel 9650 1950 2    50   Output ~ 0
+Text GLabel 9650 2250 2    50   Output ~ 0
 USB_VCC
 $Comp
 L GNDD #PWR097
 U 1 1 55B45519
-P 8250 2950
-F 0 "#PWR097" H 8250 2700 50  0001 C CNN
-F 1 "GNDD" H 8250 2800 50  0000 C CNN
-F 2 "" H 8250 2950 60  0000 C CNN
-F 3 "" H 8250 2950 60  0000 C CNN
-	1    8250 2950
+P 8250 2700
+F 0 "#PWR097" H 8250 2450 50  0001 C CNN
+F 1 "GNDD" H 8250 2550 50  0000 C CNN
+F 2 "" H 8250 2700 60  0000 C CNN
+F 3 "" H 8250 2700 60  0000 C CNN
+	1    8250 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDD #PWR098
 U 1 1 55B4640F
-P 9550 2950
-F 0 "#PWR098" H 9550 2700 50  0001 C CNN
-F 1 "GNDD" H 9550 2800 50  0000 C CNN
-F 2 "" H 9550 2950 60  0000 C CNN
-F 3 "" H 9550 2950 60  0000 C CNN
-	1    9550 2950
+P 9550 2700
+F 0 "#PWR098" H 9550 2450 50  0001 C CNN
+F 1 "GNDD" H 9550 2550 50  0000 C CNN
+F 2 "" H 9550 2700 60  0000 C CNN
+F 3 "" H 9550 2700 60  0000 C CNN
+	1    9550 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -271,10 +255,6 @@ F 4 "10033526-N3212LF" H 5600 -1050 50  0001 C CNN "MPN"
 	1    8950 5050
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8150 2850 0    50   Input ~ 0
-RJ45_POWER_INPUT
-Text GLabel 9650 2850 2    50   Output ~ 0
-POWER_INPUT
 $Comp
 L +12V #PWR?
 U 1 1 575F2249
@@ -322,27 +302,19 @@ Wire Wire Line
 Connection ~ 3000 2200
 Connection ~ 4150 3500
 Wire Wire Line
-	8150 1350 8350 1350
+	8150 1650 8350 1650
 Wire Wire Line
-	8350 1450 8150 1450
-Wire Wire Line
-	8150 1750 8350 1750
-Wire Wire Line
-	8350 1650 8150 1650
-Wire Wire Line
-	8350 2450 8150 2450
-Wire Wire Line
-	8150 2350 8350 2350
-Wire Wire Line
-	8350 2650 8150 2650
-Wire Wire Line
-	8350 2750 8150 2750
-Wire Wire Line
-	8150 1950 8350 1950
+	8350 1750 8150 1750
 Wire Wire Line
 	8150 2050 8350 2050
 Wire Wire Line
-	8350 2150 8150 2150
+	8350 1950 8150 1950
+Wire Wire Line
+	8150 2250 8350 2250
+Wire Wire Line
+	8150 2350 8350 2350
+Wire Wire Line
+	8350 2450 8150 2450
 Wire Wire Line
 	8450 5050 8450 4950
 Wire Wire Line
@@ -388,57 +360,19 @@ Wire Notes Line
 Wire Notes Line
 	7200 3900 10400 3900
 Wire Wire Line
-	9450 1350 9650 1350
+	9450 1650 9650 1650
 Wire Wire Line
-	9650 1450 9450 1450
+	9650 1750 9450 1750
 Wire Wire Line
-	9450 1750 9650 1750
-Wire Wire Line
-	9650 1650 9450 1650
-Wire Wire Line
-	9650 2450 9450 2450
-Wire Wire Line
-	9450 2350 9650 2350
-Wire Wire Line
-	9650 2650 9450 2650
-Wire Wire Line
-	9450 2750 9650 2750
-Wire Wire Line
-	9650 2050 9450 2050
-Wire Wire Line
-	9450 2150 9650 2150
+	9450 2050 9650 2050
 Wire Wire Line
 	9650 1950 9450 1950
 Wire Wire Line
-	8350 1550 8250 1550
+	9650 2350 9450 2350
 Wire Wire Line
-	8250 1550 8250 2950
+	9450 2450 9650 2450
 Wire Wire Line
-	8350 1850 8250 1850
-Connection ~ 8250 1850
-Wire Wire Line
-	9450 1550 9550 1550
-Wire Wire Line
-	9550 1550 9550 2950
-Wire Wire Line
-	9450 1850 9550 1850
-Connection ~ 9550 1850
-Wire Wire Line
-	8350 2250 8250 2250
-Connection ~ 8250 2250
-Wire Wire Line
-	8350 2550 8250 2550
-Connection ~ 8250 2550
-Wire Wire Line
-	9450 2250 9550 2250
-Connection ~ 9550 2250
-Wire Wire Line
-	9450 2550 9550 2550
-Connection ~ 9550 2550
-Wire Wire Line
-	8350 2850 8150 2850
-Wire Wire Line
-	9450 2850 9650 2850
+	9650 2250 9450 2250
 $Comp
 L RJ45 J1
 U 1 1 57607322
@@ -525,4 +459,60 @@ Wire Wire Line
 	3000 3600 3000 3700
 Wire Wire Line
 	2900 3500 3600 3500
+$Comp
+L +12V #PWR?
+U 1 1 5760ABA5
+P 8250 1300
+F 0 "#PWR?" H 8250 1150 50  0001 C CNN
+F 1 "+12V" H 8268 1474 50  0000 C CNN
+F 2 "" H 8250 1300 60  0000 C CNN
+F 3 "" H 8250 1300 60  0000 C CNN
+	1    8250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1300 8250 1550
+$Comp
+L +12V #PWR?
+U 1 1 5760AF55
+P 9550 1300
+F 0 "#PWR?" H 9550 1150 50  0001 C CNN
+F 1 "+12V" H 9568 1474 50  0000 C CNN
+F 2 "" H 9550 1300 60  0000 C CNN
+F 3 "" H 9550 1300 60  0000 C CNN
+	1    9550 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1300 9550 1550
+Connection ~ 8250 1450
+Connection ~ 9550 1450
+Wire Wire Line
+	8250 2700 8250 1850
+Wire Wire Line
+	8250 1850 8350 1850
+Wire Wire Line
+	8350 2150 8250 2150
+Connection ~ 8250 2150
+Wire Wire Line
+	8350 2550 8250 2550
+Connection ~ 8250 2550
+Wire Wire Line
+	8350 1450 8250 1450
+Wire Wire Line
+	8250 1550 8350 1550
+Wire Wire Line
+	9550 1550 9450 1550
+Wire Wire Line
+	9450 1450 9550 1450
+Wire Wire Line
+	9450 1850 9550 1850
+Wire Wire Line
+	9550 1850 9550 2700
+Wire Wire Line
+	9450 2550 9550 2550
+Connection ~ 9550 2550
+Wire Wire Line
+	9450 2150 9550 2150
+Connection ~ 9550 2150
 $EndSCHEMATC
