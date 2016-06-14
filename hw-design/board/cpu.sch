@@ -268,7 +268,7 @@ Text GLabel 3600 2650 0    50   Output ~ 0
 CHAIN_TX
 Text GLabel 3600 2750 0    50   Input ~ 0
 CHAIN_RX
-Text GLabel 3600 2850 0    50   Output ~ 0
+Text GLabel 7500 4150 2    50   Output ~ 0
 CHAIN_DE
 Text GLabel 2150 2850 2    50   Input ~ 0
 CHAIN_TX
@@ -316,7 +316,7 @@ Text GLabel 7500 4750 2    50   Output ~ 0
 LCD1_EN
 Text GLabel 7500 4850 2    50   Output ~ 0
 LCD2_EN
-Text GLabel 7500 4150 2    50   Output ~ 0
+Text GLabel 3600 2850 0    50   Output ~ 0
 LCD1_BL
 Text GLabel 7500 4250 2    50   Output ~ 0
 LCD2_BL
@@ -448,7 +448,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2750 3750 2750
 Wire Wire Line
-	3750 2850 3600 2850
+	7350 4150 7500 4150
 Wire Wire Line
 	2000 2850 2150 2850
 Wire Wire Line
@@ -504,7 +504,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 3350 7500 3350
 Wire Wire Line
-	7500 4150 7350 4150
+	3600 2850 3750 2850
 Wire Wire Line
 	7350 4250 7500 4250
 Connection ~ 8850 4600
