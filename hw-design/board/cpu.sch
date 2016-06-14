@@ -300,19 +300,19 @@ Text GLabel 7500 2950 2    50   Input ~ 0
 FS3
 Text GLabel 7500 3050 2    50   Input ~ 0
 FS4
-Text GLabel 7500 3650 2    50   BiDi ~ 0
+Text GLabel 3600 3850 0    50   BiDi ~ 0
 LCD_D7
-Text GLabel 7500 3750 2    50   BiDi ~ 0
+Text GLabel 3600 3750 0    50   BiDi ~ 0
 LCD_D6
-Text GLabel 7500 3850 2    50   BiDi ~ 0
+Text GLabel 3600 3650 0    50   BiDi ~ 0
 LCD_D5
-Text GLabel 7500 3950 2    50   BiDi ~ 0
+Text GLabel 3600 3550 0    50   BiDi ~ 0
 LCD_D4
 Text GLabel 7500 4550 2    50   Output ~ 0
 LCD_RS
 Text GLabel 7500 4650 2    50   Output ~ 0
 LCD_RW
-Text GLabel 7500 4750 2    50   Output ~ 0
+Text GLabel 3600 3950 0    50   Output ~ 0
 LCD1_EN
 Text GLabel 7500 4850 2    50   Output ~ 0
 LCD2_EN
@@ -338,17 +338,17 @@ Text GLabel 3600 3450 0    50   Output ~ 0
 LED_G2
 Text GLabel 3600 3250 0    50   Output ~ 0
 LED_B2
-Text GLabel 3600 3650 0    50   Output ~ 0
+Text GLabel 7500 3850 2    50   Output ~ 0
 LED_R3
-Text GLabel 3600 3750 0    50   Output ~ 0
+Text GLabel 7500 3750 2    50   Output ~ 0
 LED_G3
-Text GLabel 3600 3550 0    50   Output ~ 0
+Text GLabel 7500 3950 2    50   Output ~ 0
 LED_B3
-Text GLabel 3600 3950 0    50   Output ~ 0
-LED_R4
 Text GLabel 3600 4050 0    50   Output ~ 0
+LED_R4
+Text GLabel 7500 4750 2    50   Output ~ 0
 LED_G4
-Text GLabel 3600 3850 0    50   Output ~ 0
+Text GLabel 7500 3650 2    50   Output ~ 0
 LED_B4
 $Comp
 L LPC11U24FBD48/401 U3
@@ -486,19 +486,19 @@ Wire Wire Line
 Wire Wire Line
 	7500 3050 7350 3050
 Wire Wire Line
-	7500 3650 7350 3650
+	3600 3850 3750 3850
 Wire Wire Line
-	7350 3750 7500 3750
+	3750 3750 3600 3750
 Wire Wire Line
-	7500 3850 7350 3850
+	3600 3650 3750 3650
 Wire Wire Line
-	7350 3950 7500 3950
+	3750 3550 3600 3550
 Wire Wire Line
 	7350 4550 7500 4550
 Wire Wire Line
 	7500 4650 7350 4650
 Wire Wire Line
-	7350 4750 7500 4750
+	3750 3950 3600 3950
 Wire Wire Line
 	7500 4850 7350 4850
 Wire Wire Line
@@ -529,17 +529,17 @@ Wire Wire Line
 Wire Wire Line
 	3750 3450 3600 3450
 Wire Wire Line
-	3600 3550 3750 3550
+	7500 3950 7350 3950
 Wire Wire Line
-	3750 3650 3600 3650
+	7350 3850 7500 3850
 Wire Wire Line
-	3600 3750 3750 3750
+	7500 3750 7350 3750
 Wire Wire Line
-	3750 3850 3600 3850
+	7350 3650 7500 3650
 Wire Wire Line
-	3600 3950 3750 3950
+	3600 4050 3750 4050
 Wire Wire Line
-	3750 4050 3600 4050
+	7350 4750 7500 4750
 Wire Wire Line
 	9050 2400 9700 2400
 Wire Wire Line
