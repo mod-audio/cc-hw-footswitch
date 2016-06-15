@@ -294,21 +294,21 @@ Text GLabel 7500 3450 2    50   Output ~ 0
 SWO
 Text GLabel 7500 2650 2    50   Input ~ 0
 FS1
-Text GLabel 7500 2750 2    50   Input ~ 0
+Text GLabel 3600 3550 0    50   Input ~ 0
 FS2
 Text GLabel 7500 2950 2    50   Input ~ 0
 FS3
 Text GLabel 3600 3150 0    50   Input ~ 0
 FS4
-Text GLabel 3600 3850 0    50   BiDi ~ 0
+Text GLabel 7500 4550 2    50   BiDi ~ 0
 LCD_D7
-Text GLabel 3600 3750 0    50   BiDi ~ 0
+Text GLabel 7500 2750 2    50   BiDi ~ 0
 LCD_D6
-Text GLabel 3600 3650 0    50   BiDi ~ 0
+Text GLabel 3600 3750 0    50   BiDi ~ 0
 LCD_D5
-Text GLabel 3600 3550 0    50   BiDi ~ 0
+Text GLabel 3600 3850 0    50   BiDi ~ 0
 LCD_D4
-Text GLabel 7500 4550 2    50   Output ~ 0
+Text GLabel 3600 3650 0    50   Output ~ 0
 LCD_RS
 Text GLabel 3600 3350 0    50   Output ~ 0
 LCD_RW
@@ -467,21 +467,21 @@ Wire Wire Line
 Wire Wire Line
 	7350 2650 7500 2650
 Wire Wire Line
-	7500 2750 7350 2750
+	3600 3550 3750 3550
 Wire Wire Line
 	7500 2950 7350 2950
 Wire Wire Line
 	3600 3150 3750 3150
 Wire Wire Line
-	3600 3850 3750 3850
+	7500 4550 7350 4550
 Wire Wire Line
-	3750 3750 3600 3750
+	7350 2750 7500 2750
 Wire Wire Line
-	3600 3650 3750 3650
+	3600 3750 3750 3750
 Wire Wire Line
-	3750 3550 3600 3550
+	3750 3850 3600 3850
 Wire Wire Line
-	7350 4550 7500 4550
+	3750 3650 3600 3650
 Wire Wire Line
 	3600 3350 3750 3350
 Wire Wire Line
