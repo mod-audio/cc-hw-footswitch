@@ -298,7 +298,7 @@ Text GLabel 7500 2750 2    50   Input ~ 0
 FS2
 Text GLabel 7500 2950 2    50   Input ~ 0
 FS3
-Text GLabel 7500 3050 2    50   Input ~ 0
+Text GLabel 3600 3150 0    50   Input ~ 0
 FS4
 Text GLabel 3600 3850 0    50   BiDi ~ 0
 LCD_D7
@@ -310,7 +310,7 @@ Text GLabel 3600 3550 0    50   BiDi ~ 0
 LCD_D4
 Text GLabel 7500 4550 2    50   Output ~ 0
 LCD_RS
-Text GLabel 7500 4650 2    50   Output ~ 0
+Text GLabel 3600 3350 0    50   Output ~ 0
 LCD_RW
 Text GLabel 3600 3950 0    50   Output ~ 0
 LCD1_EN
@@ -320,23 +320,22 @@ Text GLabel 3600 2850 0    50   Output ~ 0
 LCD1_BL
 Text GLabel 7500 4250 2    50   Output ~ 0
 LCD2_BL
-Text GLabel 7500 3350 2    50   Output ~ 0
+Text GLabel 3600 2950 0    50   Output ~ 0
 LCD_CONTRAST
 NoConn ~ 9050 4700
 NoConn ~ 9050 4400
 NoConn ~ 9550 4700
-NoConn ~ 3750 4150
-Text GLabel 3600 3050 0    50   Output ~ 0
+Text GLabel 3600 3250 0    50   Output ~ 0
 LED_R1
-Text GLabel 3600 3150 0    50   Output ~ 0
+Text GLabel 7500 3350 2    50   Output ~ 0
 LED_G1
-Text GLabel 3600 2950 0    50   Output ~ 0
+Text GLabel 3600 4150 0    50   Output ~ 0
 LED_B1
-Text GLabel 3600 3350 0    50   Output ~ 0
+Text GLabel 7500 3050 2    50   Output ~ 0
 LED_R2
 Text GLabel 3600 3450 0    50   Output ~ 0
 LED_G2
-Text GLabel 3600 3250 0    50   Output ~ 0
+Text GLabel 7500 4650 2    50   Output ~ 0
 LED_B2
 Text GLabel 7500 3850 2    50   Output ~ 0
 LED_R3
@@ -350,18 +349,6 @@ Text GLabel 7500 4750 2    50   Output ~ 0
 LED_G4
 Text GLabel 7500 3650 2    50   Output ~ 0
 LED_B4
-$Comp
-L LPC11U24FBD48/401 U3
-U 1 1 556F3A3A
-P 5550 3750
-F 0 "U3" H 4050 5150 50  0000 C CNN
-F 1 "LPC11U24FBD48/401" H 6750 5150 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 5550 2650 50  0000 C CNN
-F 3 "" H 5500 3700 60  0000 C CNN
-F 4 "LPC11U24FBD48/401" H -350 650 50  0001 C CNN "MPN"
-	1    5550 3750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7350 4350
 NoConn ~ 7350 4450
 NoConn ~ 7350 3250
@@ -484,7 +471,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 2950 7350 2950
 Wire Wire Line
-	7500 3050 7350 3050
+	3600 3150 3750 3150
 Wire Wire Line
 	3600 3850 3750 3850
 Wire Wire Line
@@ -496,13 +483,13 @@ Wire Wire Line
 Wire Wire Line
 	7350 4550 7500 4550
 Wire Wire Line
-	7500 4650 7350 4650
+	3600 3350 3750 3350
 Wire Wire Line
 	3750 3950 3600 3950
 Wire Wire Line
 	7500 4850 7350 4850
 Wire Wire Line
-	7350 3350 7500 3350
+	3750 2950 3600 2950
 Wire Wire Line
 	3600 2850 3750 2850
 Wire Wire Line
@@ -517,15 +504,15 @@ Connection ~ 5650 1550
 Connection ~ 5550 5350
 Connection ~ 9300 2400
 Wire Wire Line
-	3600 2950 3750 2950
-Wire Wire Line
-	3600 3050 3750 3050
-Wire Wire Line
-	3750 3150 3600 3150
+	3600 4150 3750 4150
 Wire Wire Line
 	3600 3250 3750 3250
 Wire Wire Line
-	3600 3350 3750 3350
+	7350 3350 7500 3350
+Wire Wire Line
+	7500 4650 7350 4650
+Wire Wire Line
+	7500 3050 7350 3050
 Wire Wire Line
 	3750 3450 3600 3450
 Wire Wire Line
@@ -546,4 +533,17 @@ Wire Wire Line
 	9700 2500 9650 2500
 Wire Wire Line
 	9650 2500 9650 2650
+$Comp
+L LPC11U24FBD48/401 U3
+U 1 1 556F3A3A
+P 5550 3750
+F 0 "U3" H 4050 5150 50  0000 C CNN
+F 1 "LPC11U24FBD48/401" H 6750 5150 50  0000 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 5550 2650 50  0000 C CNN
+F 3 "" H 5500 3700 60  0000 C CNN
+F 4 "LPC11U24FBD48/401" H -350 650 50  0001 C CNN "MPN"
+	1    5550 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 3050
 $EndSCHEMATC
