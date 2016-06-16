@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/board/footswitch.sch</source>
-    <date>Thu 16 Jun 2016 06:08:41 PM CEST</date>
+    <date>Thu 16 Jun 2016 07:06:59 PM CEST</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -879,6 +879,9 @@
     <comp ref="H7">
       <value>KEYSTONE</value>
       <footprint>local-footprints:Keystone-7790</footprint>
+      <fields>
+        <field name="MPN">Keystone 7790</field>
+      </fields>
       <libsource lib="conn" part="CONN_02X02"/>
       <sheetpath names="/Mechanic/" tstamps="/55B0CAF6/"/>
       <tstamp>55B1AED0</tstamp>
@@ -886,6 +889,9 @@
     <comp ref="H8">
       <value>KEYSTONE</value>
       <footprint>local-footprints:Keystone-7790</footprint>
+      <fields>
+        <field name="MPN">Keystone 7790</field>
+      </fields>
       <libsource lib="conn" part="CONN_02X02"/>
       <sheetpath names="/Mechanic/" tstamps="/55B0CAF6/"/>
       <tstamp>55B1B1A5</tstamp>
@@ -963,6 +969,9 @@
     <comp ref="P6">
       <value>CONN_01X12</value>
       <footprint>Pin_Headers:Pin_Header_Angled_1x12</footprint>
+      <fields>
+        <field name="MPN">68016-112HLF</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X12"/>
       <sheetpath names="/Rear Board/" tstamps="/55B25118/"/>
       <tstamp>55B42C87</tstamp>
@@ -970,6 +979,9 @@
     <comp ref="P8">
       <value>CONN_01X12</value>
       <footprint>Pin_Headers:Pin_Header_Angled_1x12</footprint>
+      <fields>
+        <field name="MPN">68016-112HLF</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X12"/>
       <sheetpath names="/Rear Board/" tstamps="/55B25118/"/>
       <tstamp>55B42DAB</tstamp>
@@ -1555,20 +1567,20 @@
     <library logical="device">
       <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/device.lib</uri>
     </library>
+    <library logical="regul">
+      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/regul.lib</uri>
+    </library>
     <library logical="conn">
       <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/conn.lib</uri>
     </library>
-    <library logical="regul">
-      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/regul.lib</uri>
+    <library logical="interface">
+      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/interface.lib</uri>
     </library>
     <library logical="display">
       <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/display.lib</uri>
     </library>
     <library logical="nxp_armmcu">
       <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/local-library/nxp_armmcu.lib</uri>
-    </library>
-    <library logical="interface">
-      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/interface.lib</uri>
     </library>
   </libraries>
   <nets>
