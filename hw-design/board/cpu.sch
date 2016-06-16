@@ -292,13 +292,13 @@ Text Notes 9050 1650 0    100  ~ 0
 RESET
 Text GLabel 7500 3450 2    50   Output ~ 0
 SWO
-Text GLabel 7500 2650 2    50   Input ~ 0
+Text GLabel 7500 3250 2    50   Input ~ 0
 FS1
-Text GLabel 3600 2850 0    50   Input ~ 0
+Text GLabel 3600 3950 0    50   Input ~ 0
 FS2
-Text GLabel 3600 3650 0    50   Input ~ 0
+Text GLabel 7500 4250 2    50   Input ~ 0
 FS3
-Text GLabel 3600 3350 0    50   Input ~ 0
+Text GLabel 3600 2850 0    50   Input ~ 0
 FS4
 Text GLabel 7500 4550 2    50   BiDi ~ 0
 LCD_D7
@@ -312,11 +312,11 @@ Text GLabel 7500 2950 2    50   Output ~ 0
 LCD_RS
 Text GLabel 3600 3150 0    50   Output ~ 0
 LCD_RW
-Text GLabel 3600 3550 0    50   Output ~ 0
+Text GLabel 3600 2950 0    50   Output ~ 0
 LCD1_EN
 Text GLabel 7500 4450 2    50   Output ~ 0
 LCD2_EN
-Text GLabel 7500 3250 2    50   Output ~ 0
+Text GLabel 3600 3550 0    50   Output ~ 0
 LCD1_BL
 Text GLabel 7500 4350 2    50   Output ~ 0
 LCD2_BL
@@ -349,9 +349,9 @@ Text GLabel 7500 4750 2    50   Output ~ 0
 LED_G4
 Text GLabel 7500 3650 2    50   Output ~ 0
 LED_B4
-NoConn ~ 7350 4250
-NoConn ~ 3750 2950
-NoConn ~ 3750 3950
+NoConn ~ 3750 3350
+NoConn ~ 7350 2650
+NoConn ~ 3750 3650
 $Comp
 L CONN_01X02 P10
 U 1 1 575FD477
@@ -465,13 +465,13 @@ Wire Wire Line
 Wire Wire Line
 	7500 3450 7350 3450
 Wire Wire Line
-	7350 2650 7500 2650
+	7350 3250 7500 3250
+Wire Wire Line
+	3600 3950 3750 3950
+Wire Wire Line
+	7500 4250 7350 4250
 Wire Wire Line
 	3600 2850 3750 2850
-Wire Wire Line
-	3600 3650 3750 3650
-Wire Wire Line
-	3600 3350 3750 3350
 Wire Wire Line
 	7500 4550 7350 4550
 Wire Wire Line
@@ -485,13 +485,13 @@ Wire Wire Line
 Wire Wire Line
 	3600 3150 3750 3150
 Wire Wire Line
-	3750 3550 3600 3550
+	3750 2950 3600 2950
 Wire Wire Line
 	7500 4450 7350 4450
 Wire Wire Line
 	7350 4850 7500 4850
 Wire Wire Line
-	7500 3250 7350 3250
+	3600 3550 3750 3550
 Wire Wire Line
 	7350 4350 7500 4350
 Connection ~ 8850 4600
