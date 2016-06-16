@@ -256,28 +256,6 @@ F 4 "10033526-N3212LF" H 5600 -1050 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR31
-U 1 1 575F2249
-P 3550 1800
-F 0 "#PWR31" H 3550 1650 50  0001 C CNN
-F 1 "+12V" H 3568 1974 50  0000 C CNN
-F 2 "" H 3550 1800 60  0000 C CNN
-F 3 "" H 3550 1800 60  0000 C CNN
-	1    3550 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR38
-U 1 1 575F23FA
-P 4150 2950
-F 0 "#PWR38" H 4150 2800 50  0001 C CNN
-F 1 "+12V" H 4168 3124 50  0000 C CNN
-F 2 "" H 4150 2950 60  0000 C CNN
-F 3 "" H 4150 2950 60  0000 C CNN
-	1    4150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L RJ45 J1
 U 1 1 57607322
 P 2450 1850
@@ -308,17 +286,6 @@ RJ45_RX+
 Text GLabel 3000 3000 2    50   Output ~ 0
 RJ45_RX-
 $Comp
-L +12V #PWR32
-U 1 1 57607F95
-P 3550 3200
-F 0 "#PWR32" H 3550 3050 50  0001 C CNN
-F 1 "+12V" H 3568 3374 50  0000 C CNN
-F 2 "" H 3550 3200 60  0000 C CNN
-F 3 "" H 3550 3200 60  0000 C CNN
-	1    3550 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L RJ45 J2
 U 1 1 57607FA3
 P 2450 3250
@@ -331,17 +298,6 @@ F 3 "" H 2450 3250 50  0000 C CNN
 $EndComp
 NoConn ~ 2100 2400
 NoConn ~ 2100 3800
-$Comp
-L +12V #PWR62
-U 1 1 5760ABA5
-P 8250 1300
-F 0 "#PWR62" H 8250 1150 50  0001 C CNN
-F 1 "+12V" H 8268 1474 50  0000 C CNN
-F 2 "" H 8250 1300 60  0000 C CNN
-F 3 "" H 8250 1300 60  0000 C CNN
-	1    8250 1300
-	1    0    0    -1  
-$EndComp
 $Comp
 L +12V #PWR76
 U 1 1 5760AF55
@@ -474,15 +430,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 2250 9450 2250
 Wire Wire Line
-	2900 1900 3550 1900
-Wire Wire Line
-	3550 1900 3550 1800
-Wire Wire Line
-	2900 1800 3000 1800
-Wire Wire Line
-	3000 1800 3000 1900
-Connection ~ 3000 1900
-Wire Wire Line
 	2900 2900 3000 2900
 Wire Wire Line
 	2900 3000 3000 3000
@@ -491,25 +438,13 @@ Wire Wire Line
 Wire Wire Line
 	3000 3400 2900 3400
 Wire Wire Line
-	2900 3300 3550 3300
-Wire Wire Line
-	3550 3300 3550 3200
-Wire Wire Line
-	2900 3200 3000 3200
-Wire Wire Line
-	3000 3200 3000 3300
-Connection ~ 3000 3300
-Wire Wire Line
 	2900 3600 3000 3600
 Wire Wire Line
 	3000 3600 3000 3700
 Wire Wire Line
 	2900 3500 3600 3500
 Wire Wire Line
-	8250 1300 8250 1550
-Wire Wire Line
 	9550 1300 9550 1550
-Connection ~ 8250 1450
 Connection ~ 9550 1450
 Wire Wire Line
 	8250 2700 8250 1850
@@ -521,10 +456,6 @@ Connection ~ 8250 2150
 Wire Wire Line
 	8350 2550 8250 2550
 Connection ~ 8250 2550
-Wire Wire Line
-	8350 1450 8250 1450
-Wire Wire Line
-	8250 1550 8350 1550
 Wire Wire Line
 	9550 1550 9450 1550
 Wire Wire Line
@@ -543,4 +474,35 @@ Wire Wire Line
 	7750 2350 7850 2350
 Wire Wire Line
 	7850 2450 7750 2450
+Text GLabel 8150 1450 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	8150 1450 8350 1450
+Wire Wire Line
+	8350 1550 8250 1550
+Wire Wire Line
+	8250 1550 8250 1450
+Connection ~ 8250 1450
+Text GLabel 3000 1800 2    50   Output ~ 0
+VIN
+Wire Wire Line
+	2900 1800 3000 1800
+Wire Wire Line
+	2900 1900 2950 1900
+Wire Wire Line
+	2950 1900 2950 1800
+Connection ~ 2950 1800
+Text GLabel 3000 3200 2    50   Output ~ 0
+VIN
+Wire Wire Line
+	2900 3200 3000 3200
+Wire Wire Line
+	2900 3300 2950 3300
+Wire Wire Line
+	2950 3300 2950 3200
+Connection ~ 2950 3200
+Text GLabel 4000 2950 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	4150 2950 4000 2950
 $EndSCHEMATC
