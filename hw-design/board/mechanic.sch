@@ -99,6 +99,7 @@ F 0 "H7" H 4200 2000 50  0000 C CNN
 F 1 "KEYSTONE" H 4200 1700 50  0000 C CNN
 F 2 "local-footprints:Keystone-7790" H 4200 1850 60  0001 C CNN
 F 3 "" H 4200 650 60  0000 C CNN
+F 4 "Keystone 7790" H 4200 1850 60  0001 C CNN "MPN"
 	1    4200 1850
 	1    0    0    -1  
 $EndComp
@@ -110,6 +111,7 @@ F 0 "H8" H 4950 2000 50  0000 C CNN
 F 1 "KEYSTONE" H 4950 1700 50  0000 C CNN
 F 2 "local-footprints:Keystone-7790" H 4950 1850 60  0001 C CNN
 F 3 "" H 4950 650 60  0000 C CNN
+F 4 "Keystone 7790" H 4950 1850 60  0001 C CNN "MPN"
 	1    4950 1850
 	1    0    0    -1  
 $EndComp
