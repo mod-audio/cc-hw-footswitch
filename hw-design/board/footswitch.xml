@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/board/footswitch.sch</source>
-    <date>Thu 16 Jun 2016 07:06:59 PM CEST</date>
+    <date>Tue 12 Jul 2016 10:42:28 AM CEST</date>
     <tool>Eeschema 4.0.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1087,10 +1087,10 @@
       <tstamp>55B4E366</tstamp>
     </comp>
     <comp ref="C14">
-      <value>10nF</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="MPN">C1608X7R1E103K080AA</field>
+        <field name="MPN">C1608X7R1E104K080AA</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/USB/" tstamps="/55B4D84D/"/>
@@ -1564,23 +1564,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/device.lib</uri>
+    <library logical="conn">
+      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/conn.lib</uri>
+    </library>
+    <library logical="nxp_armmcu">
+      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/local-library/nxp_armmcu.lib</uri>
     </library>
     <library logical="regul">
       <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/regul.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/conn.lib</uri>
+    <library logical="display">
+      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/display.lib</uri>
     </library>
     <library logical="interface">
       <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/interface.lib</uri>
     </library>
-    <library logical="display">
-      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/display.lib</uri>
-    </library>
-    <library logical="nxp_armmcu">
-      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/local-library/nxp_armmcu.lib</uri>
+    <library logical="device">
+      <uri>/home/ricardo/devel/mod/mod-hw-footswitch/hw-design/lib/kicad-library/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
