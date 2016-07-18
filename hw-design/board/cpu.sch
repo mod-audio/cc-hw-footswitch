@@ -290,7 +290,7 @@ Text Notes 9050 1650 0    100  ~ 0
 RESET
 Text GLabel 7500 3450 2    50   Output ~ 0
 SWO
-Text GLabel 7500 2650 2    50   Input ~ 0
+Text GLabel 7500 3250 2    50   Input ~ 0
 FS1
 Text GLabel 3600 3950 0    50   Input ~ 0
 FS2
@@ -346,7 +346,6 @@ LED_G4
 Text GLabel 7500 3650 2    50   Output ~ 0
 LED_B4
 NoConn ~ 3750 3350
-NoConn ~ 7350 3250
 NoConn ~ 3750 3650
 $Comp
 L CONN_01X02 P10
@@ -460,7 +459,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3450 7350 3450
 Wire Wire Line
-	7350 2650 7500 2650
+	7350 3250 7500 3250
 Wire Wire Line
 	3600 3950 3750 3950
 Wire Wire Line
@@ -540,4 +539,8 @@ F 4 "LPC11U24FBD48/401" H -350 650 50  0001 C CNN "MPN"
 $EndComp
 NoConn ~ 3750 3050
 NoConn ~ 7350 4850
+Text GLabel 7500 2650 2    50   Input ~ 0
+ISP_TRIGGER
+Wire Wire Line
+	7350 2650 7500 2650
 $EndSCHEMATC
