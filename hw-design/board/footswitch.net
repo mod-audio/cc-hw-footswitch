@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ricardo/devel/control-chain/cc-hw-footswitch/hw-design/board/footswitch.sch)
-    (date "Mon 18 Jul 2016 04:06:48 PM CEST")
+    (date "Mon 18 Jul 2016 05:42:00 PM CEST")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -906,10 +906,10 @@
       (sheetpath (names /USB/) (tstamps /55B4D84D/))
       (tstamp 578D24B0))
     (comp (ref R6)
-      (value 10K)
+      (value 100K)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name MPN) RMCF0603JT10K0))
+        (field (name MPN) RMCF0603JT100K))
       (libsource (lib device) (part R))
       (sheetpath (names /USB/) (tstamps /55B4D84D/))
       (tstamp 578D27BF))
