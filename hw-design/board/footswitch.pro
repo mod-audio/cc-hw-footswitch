@@ -1,4 +1,4 @@
-update=Thu 23 Jul 2015 07:13:00 PM CEST
+update=Wed 12 Jul 2017 06:15:55 PM -03
 version=1
 last_client=kicad
 [cvpcb]
@@ -21,19 +21,6 @@ RptLab=1
 LabSize=60
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=../lib
-[eeschema/libraries]
-LibName1=kicad-library/library/conn
-LibName2=kicad-library/library/device
-LibName3=kicad-library/library/interface
-LibName4=kicad-library/library/power
-LibName5=kicad-library/library/regul
-LibName6=kicad-library/library/transistors
-LibName7=kicad-library/library/display
-LibName8=local-library/nxp_armmcu
-LibName9=local-library/philips
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -54,3 +41,17 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.15
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=../lib
+[eeschema/libraries]
+LibName1=kicad-library/library/conn
+LibName2=kicad-library/library/device
+LibName3=kicad-library/library/interface
+LibName4=kicad-library/library/power
+LibName5=kicad-library/library/regul
+LibName6=kicad-library/library/transistors
+LibName7=kicad-library/library/display
+LibName8=local-library/nxp_armmcu
+LibName9=local-library/philips
+LibName10=local-library/graphic_symbols

@@ -43,3 +43,6 @@
 [submodule "hw-design/lib/Display.pretty"]
 	path = hw-design/lib/Display.pretty
 	url = git@github.com:KiCad/Display.pretty.git
+[submodule "hw-design/lib/Symbols.pretty"]
+	path = hw-design/lib/Symbols.pretty
+	url = https://github.com/KiCad/Symbols.pretty.git
