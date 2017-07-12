@@ -9,7 +9,7 @@ LIBS:display
 LIBS:nxp_armmcu
 LIBS:philips
 LIBS:footswitch-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -101,7 +101,7 @@ F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 5050 3050 29  0001 C CNN
 F 3 "" H 4850 2950 60  0000 C CNN
 F 4 "2N7002P,215" H 0   0   50  0001 C CNN "MPN"
 	1    4850 2950
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GNDD #PWR41
@@ -226,7 +226,7 @@ F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 9100 3050 29  0001 C CNN
 F 3 "" H 8900 2950 60  0000 C CNN
 F 4 "2N7002P,215" H 0   0   50  0001 C CNN "MPN"
 	1    8900 2950
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GNDD #PWR71
