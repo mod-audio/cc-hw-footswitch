@@ -8,6 +8,7 @@ LIBS:transistors
 LIBS:display
 LIBS:nxp_armmcu
 LIBS:philips
+LIBS:graphic_symbols
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -195,7 +196,7 @@ U 1 1 55B42C87
 P 8550 2000
 F 0 "P6" H 8550 2650 50  0000 C CNN
 F 1 "CONN_01X12" V 8650 2000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x12" H 8550 2000 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 8550 2000 60  0001 C CNN
 F 3 "" H 8550 2000 60  0000 C CNN
 F 4 "68016-112HLF" H 8550 2000 60  0001 C CNN "MPN"
 	1    8550 2000

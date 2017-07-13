@@ -8,6 +8,7 @@ LIBS:transistors
 LIBS:display
 LIBS:nxp_armmcu
 LIBS:philips
+LIBS:graphic_symbols
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
