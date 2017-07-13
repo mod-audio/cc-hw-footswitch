@@ -8,6 +8,7 @@ LIBS:transistors
 LIBS:display
 LIBS:nxp_armmcu
 LIBS:philips
+LIBS:graphic_symbols
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -80,17 +81,6 @@ F 3 "" H 4100 3100 60  0000 C CNN
 	1    4100 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L GNDD #PWR027
-U 1 1 557F118D
-P 4100 2150
-F 0 "#PWR027" H 4100 1900 60  0001 C CNN
-F 1 "GNDD" H 4100 2000 60  0000 C CNN
-F 2 "" H 4100 2150 60  0000 C CNN
-F 3 "" H 4100 2150 60  0000 C CNN
-	1    4100 2150
-	1    0    0    -1  
-$EndComp
 Text GLabel 2800 1800 0    50   Input ~ 0
 RS485_RX+
 Text GLabel 2800 2000 0    50   Input ~ 0
@@ -142,10 +132,38 @@ Wire Wire Line
 Wire Wire Line
 	4250 2400 3950 2400
 Wire Wire Line
-	3950 2100 4100 2100
-Wire Wire Line
-	4100 2100 4100 2150
+	3950 2100 4250 2100
 Connection ~ 3300 2950
 Connection ~ 3600 1450
 Connection ~ 4100 2600
+$Comp
+L R R40
+U 1 1 59678A04
+P 4100 1650
+F 0 "R40" V 4180 1650 50  0000 C CNN
+F 1 "10K" V 4100 1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4030 1650 30  0001 C CNN
+F 3 "" H 4100 1650 30  0000 C CNN
+F 4 "RMCF0603JT10K0" H -4550 -1400 50  0001 C CNN "MPN"
+	1    4100 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR027
+U 1 1 59678AAB
+P 4100 1400
+F 0 "#PWR027" H 4100 1250 50  0001 C CNN
+F 1 "+3.3V" H 4100 1540 50  0000 C CNN
+F 2 "" H 4100 1400 60  0000 C CNN
+F 3 "" H 4100 1400 60  0000 C CNN
+	1    4100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1400 4100 1500
+Text GLabel 4250 2100 2    50   Input ~ 0
+CHAIN_RE
+Wire Wire Line
+	4100 1800 4100 2100
+Connection ~ 4100 2100
 $EndSCHEMATC

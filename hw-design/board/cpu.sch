@@ -8,6 +8,7 @@ LIBS:transistors
 LIBS:display
 LIBS:nxp_armmcu
 LIBS:philips
+LIBS:graphic_symbols
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -538,9 +539,12 @@ F 4 "LPC11U24FBD48/401" H -350 650 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3750 3050
-NoConn ~ 7350 4850
 Text GLabel 7500 2650 2    50   Input ~ 0
 ISP_TRIGGER
 Wire Wire Line
 	7350 2650 7500 2650
+Text GLabel 7500 4850 2    50   Output ~ 0
+CHAIN_RE
+Wire Wire Line
+	7350 4850 7500 4850
 $EndSCHEMATC
