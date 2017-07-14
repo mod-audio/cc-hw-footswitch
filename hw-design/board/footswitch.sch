@@ -72,4 +72,15 @@ U 55B4D84D
 F0 "USB" 60
 F1 "usb.sch" 60
 $EndSheet
+$Comp
+L Logo_Open_Hardware_Small #LOGO1
+U 1 1 5968E2D7
+P 1500 4450
+F 0 "#LOGO1" H 1500 4725 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1500 4225 50  0001 C CNN
+F 2 "Symbols:OSHW-Logo2_9.8x8mm_SilkScreen" H 1500 4450 50  0001 C CNN
+F 3 "" H 1500 4450 50  0001 C CNN
+	1    1500 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

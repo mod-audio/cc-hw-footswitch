@@ -13,4 +13,5 @@
   (lib (name Resistors_SMD)(type KiCad)(uri ${KIPRJMOD}/../lib/Resistors_SMD.pretty)(options "")(descr ""))
   (lib (name SMD_Packages)(type KiCad)(uri ${KIPRJMOD}/../lib/SMD_Packages.pretty)(options "")(descr ""))
   (lib (name Display)(type KiCad)(uri ${KIPRJMOD}/../lib/Display.pretty)(options "")(descr ""))
+  (lib (name Symbols)(type KiCad)(uri ${KIPRJMOD}/../lib/Symbols.pretty)(options "")(descr ""))
 )
