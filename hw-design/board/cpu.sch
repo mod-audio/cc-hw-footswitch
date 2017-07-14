@@ -346,7 +346,6 @@ Text GLabel 7500 4750 2    50   Output ~ 0
 LED_G4
 Text GLabel 7500 3650 2    50   Output ~ 0
 LED_B4
-NoConn ~ 3750 3350
 NoConn ~ 3750 3650
 $Comp
 L CONN_01X02 P10
@@ -543,8 +542,9 @@ Text GLabel 7500 2650 2    50   Input ~ 0
 ISP_TRIGGER
 Wire Wire Line
 	7350 2650 7500 2650
-Text GLabel 7500 4850 2    50   Output ~ 0
+Text GLabel 3600 3350 0    50   Output ~ 0
 CHAIN_RE
 Wire Wire Line
-	7350 4850 7500 4850
+	3750 3350 3600 3350
+NoConn ~ 7350 4850
 $EndSCHEMATC
