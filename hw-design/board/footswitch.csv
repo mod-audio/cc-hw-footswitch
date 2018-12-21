@@ -32,7 +32,7 @@
 "31","1","R7","24K","footswitch-rescue:R","Resistors_SMD:R_0603","","MCR03ERTF2402",""
 "32","2","R9, R21","2K4","footswitch-rescue:R","Resistors_SMD:R_0603","","","do not place"
 "33","1","R14","1K5","footswitch-rescue:R","Resistors_SMD:R_0603","","MCR03ERTF1501",""
-"34","2","R15, R22","2K","footswitch-rescue:R","Resistors_SMD:R_0603","","RMCF0603JT2K00",""
+"34","2","R15, R22","1.2K","footswitch-rescue:R","Resistors_SMD:R_0603","","RMCF0603JT1K20",""
 "35","1","R16","100R","footswitch-rescue:R","Resistors_SMD:R_0805","","ERJ-P06F1000V",""
 "36","1","R20","100R","footswitch-rescue:R","Resistors_SMD:R_0603","","RMCF0603JT100R",""
 "37","12","R23, R24, R25, R28, R29, R30, R31, R32, R33, R34, R35, R36","220R","footswitch-rescue:R","Resistors_SMD:R_0603","~","RMCF0603JT220R",""

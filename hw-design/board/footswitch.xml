@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ricardo/devel/control-chain/cc-hw-footswitch/hw-design/board/footswitch.sch</source>
-    <date>Fri 21 Dec 2018 05:22:25 PM CET</date>
+    <date>Fri 21 Dec 2018 05:27:40 PM CET</date>
     <tool>Eeschema 5.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -805,10 +805,10 @@
       <tstamp>578CBDC0</tstamp>
     </comp>
     <comp ref="R15">
-      <value>2K</value>
+      <value>1.2K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT2K00</field>
+        <field name="MPN">RMCF0603JT1K20</field>
       </fields>
       <libsource lib="footswitch-rescue" part="R" description=""/>
       <sheetpath names="/Display/" tstamps="/53485BBD/"/>
@@ -835,10 +835,10 @@
       <tstamp>578CEDF7</tstamp>
     </comp>
     <comp ref="R22">
-      <value>2K</value>
+      <value>1.2K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="MPN">RMCF0603JT2K00</field>
+        <field name="MPN">RMCF0603JT1K20</field>
       </fields>
       <libsource lib="footswitch-rescue" part="R" description=""/>
       <sheetpath names="/Display/" tstamps="/53485BBD/"/>
