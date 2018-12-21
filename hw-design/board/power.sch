@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:power
-LIBS:regul
-LIBS:transistors
-LIBS:display
-LIBS:nxp_armmcu
-LIBS:philips
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -25,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CP1 C10
+L footswitch-rescue:CP1 C10
 U 1 1 548B65F7
 P 5100 1850
 F 0 "C10" V 5200 1950 50  0000 L CNN
@@ -37,7 +27,7 @@ F 4 "UWX1C101MCL1GB" H 250 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L footswitch-rescue:C C12
 U 1 1 548B6624
 P 5450 1850
 F 0 "C12" V 5400 1950 50  0000 L CNN
@@ -49,7 +39,7 @@ F 4 "C1608X7R1E104K080AA" H 250 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C5
+L footswitch-rescue:CP1 C5
 U 1 1 548B663E
 P 3500 1850
 F 0 "C5" V 3600 1950 50  0000 L CNN
@@ -61,7 +51,7 @@ F 4 "UWX1E100MCL1GB" H 350 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D1
+L footswitch-rescue:D D1
 U 1 1 548B6651
 P 2300 1600
 F 0 "D1" H 2300 1700 40  0000 C CNN
@@ -73,7 +63,7 @@ F 4 "CGRA4007-G" H 300 0   50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L FUSE RT1
+L footswitch-rescue:FUSE RT1
 U 1 1 548B6658
 P 3050 1600
 F 0 "RT1" H 3050 1700 40  0000 C CNN
@@ -85,7 +75,7 @@ F 4 "0ZCB0050FF2G" H 400 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L footswitch-rescue:C C7
 U 1 1 548B665F
 P 3800 1850
 F 0 "C7" V 3750 1950 40  0000 L CNN
@@ -97,7 +87,7 @@ F 4 "C1608X7R1E104K080AA" H 350 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR01
+L footswitch-rescue:GNDD #PWR01
 U 1 1 54E7EE6C
 P 3500 2100
 F 0 "#PWR01" H 3500 1850 60  0001 C CNN
@@ -108,7 +98,7 @@ F 3 "" H 3500 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR02
+L footswitch-rescue:GNDD #PWR02
 U 1 1 54E7EE80
 P 3800 2100
 F 0 "#PWR02" H 3800 1850 60  0001 C CNN
@@ -119,7 +109,7 @@ F 3 "" H 3800 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR03
+L footswitch-rescue:GNDD #PWR03
 U 1 1 54E7F9F2
 P 5100 2100
 F 0 "#PWR03" H 5100 1850 60  0001 C CNN
@@ -130,7 +120,7 @@ F 3 "" H 5100 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR04
+L footswitch-rescue:GNDD #PWR04
 U 1 1 54E7FA28
 P 5450 2100
 F 0 "#PWR04" H 5450 1850 60  0001 C CNN
@@ -141,7 +131,7 @@ F 3 "" H 5450 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR05
+L footswitch-rescue:GNDD #PWR05
 U 1 1 54E80258
 P 4450 1950
 F 0 "#PWR05" H 4450 1700 60  0001 C CNN
@@ -152,7 +142,7 @@ F 3 "" H 4450 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L footswitch-rescue:+3.3V #PWR06
 U 1 1 556EF2E1
 P 5700 1500
 F 0 "#PWR06" H 5700 1350 50  0001 C CNN
@@ -163,7 +153,7 @@ F 3 "" H 5700 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PMOS_GSD Q5
+L footswitch-rescue:Q_PMOS_GSD Q5
 U 1 1 5576EC7B
 P 3450 3950
 F 0 "Q5" V 3350 3900 50  0000 R CNN
@@ -175,7 +165,7 @@ F 4 "FDN306P_F095" H 450 0   50  0001 C CNN "MPN"
 	0    1    -1   0   
 $EndComp
 $Comp
-L D_Schottky D3
+L footswitch-rescue:D_Schottky D3
 U 1 1 5576EF8F
 P 4250 3850
 F 0 "D3" H 4250 3950 50  0000 C CNN
@@ -187,7 +177,7 @@ F 4 "1N5819HW-7-F" H 450 0   50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R13
+L footswitch-rescue:R R13
 U 1 1 5576FA4A
 P 2950 4100
 F 0 "R13" V 3030 4100 50  0000 C CNN
@@ -199,7 +189,7 @@ F 4 "RMCF0603JT10K0" H 450 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR07
+L footswitch-rescue:VCC #PWR07
 U 1 1 55770535
 P 2950 3750
 F 0 "#PWR07" H 2950 3600 50  0001 C CNN
@@ -210,7 +200,7 @@ F 3 "" H 2950 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q4
+L footswitch-rescue:Q_NMOS_GSD Q4
 U 1 1 55771A8F
 P 2850 4750
 F 0 "Q4" H 2750 4800 50  0000 R CNN
@@ -222,7 +212,7 @@ F 4 "2N7002P,215" H 450 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q1
+L footswitch-rescue:Q_NMOS_GSD Q1
 U 1 1 55771C8E
 P 2400 5100
 F 0 "Q1" H 2300 5150 50  0000 R CNN
@@ -234,7 +224,7 @@ F 4 "2N7002P,215" H 450 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR08
+L footswitch-rescue:GNDD #PWR08
 U 1 1 557724D6
 P 2500 5400
 F 0 "#PWR08" H 2500 5150 60  0001 C CNN
@@ -245,7 +235,7 @@ F 3 "" H 2500 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR09
+L footswitch-rescue:GNDD #PWR09
 U 1 1 55772F70
 P 2950 5050
 F 0 "#PWR09" H 2950 4800 60  0001 C CNN
@@ -256,7 +246,7 @@ F 3 "" H 2950 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L footswitch-rescue:R R8
 U 1 1 55773BAE
 P 2500 4450
 F 0 "R8" V 2580 4450 50  0000 C CNN
@@ -268,7 +258,7 @@ F 4 "RMCF0603JT10K0" H 450 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR010
+L footswitch-rescue:VCC #PWR010
 U 1 1 55774D84
 P 2500 4200
 F 0 "#PWR010" H 2500 4050 50  0001 C CNN
@@ -279,7 +269,7 @@ F 3 "" H 2500 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L footswitch-rescue:C C8
 U 1 1 55779079
 P 3800 4100
 F 0 "C8" H 3825 4200 50  0000 L CNN
@@ -291,7 +281,7 @@ F 4 "GRM219R61E106KA12D" H 450 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NCP1117ST33T3G U2
+L footswitch-rescue:NCP1117ST33T3G U2
 U 1 1 557C3298
 P 4450 1650
 F 0 "U2" H 4600 1450 50  0000 C CNN
@@ -303,7 +293,7 @@ F 4 "NCP1117DT33G" H -4150 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L footswitch-rescue:R R4
 U 1 1 557CABF6
 P 2050 5400
 F 0 "R4" V 2130 5400 50  0000 C CNN
@@ -315,7 +305,7 @@ F 4 "RMCF0603JT10K0" H 450 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR011
+L footswitch-rescue:GNDD #PWR011
 U 1 1 557CAF87
 P 2050 5650
 F 0 "#PWR011" H 2050 5400 60  0001 C CNN
@@ -326,7 +316,7 @@ F 3 "" H 2050 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L footswitch-rescue:+5V #PWR012
 U 1 1 557CDFF5
 P 4600 3750
 F 0 "#PWR012" H 4600 3600 50  0001 C CNN
@@ -337,7 +327,7 @@ F 3 "" H 4600 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR013
+L footswitch-rescue:+5V #PWR013
 U 1 1 557CC20F
 P 2650 1500
 F 0 "#PWR013" H 2650 1350 50  0001 C CNN
@@ -348,7 +338,7 @@ F 3 "" H 2650 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L footswitch-rescue:R R3
 U 1 1 557CFF3F
 P 2050 4800
 F 0 "R3" V 2130 4800 50  0000 C CNN
@@ -360,7 +350,7 @@ F 4 "RMCF0603JT10K0" H 450 0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG014
+L footswitch-rescue:PWR_FLAG #FLG014
 U 1 1 557B3123
 P 6950 1700
 F 0 "#FLG014" H 6950 1795 30  0001 C CNN
@@ -371,7 +361,7 @@ F 3 "" H 6950 1700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR015
+L footswitch-rescue:+5V #PWR015
 U 1 1 557B3200
 P 6950 1550
 F 0 "#PWR015" H 6950 1400 50  0001 C CNN
@@ -386,7 +376,7 @@ CONTROL CHAIN POWER
 Text Notes 2350 3350 0    100  ~ 0
 USB POWER
 $Comp
-L VCC #PWR016
+L footswitch-rescue:VCC #PWR016
 U 1 1 55B522FD
 P 7200 1550
 F 0 "#PWR016" H 7200 1400 50  0001 C CNN
@@ -397,7 +387,7 @@ F 3 "" H 7200 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG017
+L footswitch-rescue:PWR_FLAG #FLG017
 U 1 1 55B523DA
 P 7200 1700
 F 0 "#FLG017" H 7200 1795 30  0001 C CNN
@@ -408,9 +398,11 @@ F 3 "" H 7200 1700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR018
+L footswitch-rescue:+12V #PWR018
 U 1 1 575EB4B7
 P 1600 1500
+AR Path="/575EB4B7" Ref="#PWR018"  Part="1" 
+AR Path="/54830571/575EB4B7" Ref="#PWR018"  Part="1" 
 F 0 "#PWR018" H 1600 1350 50  0001 C CNN
 F 1 "+12V" H 1618 1674 50  0000 C CNN
 F 2 "" H 1600 1500 60  0000 C CNN
@@ -419,7 +411,7 @@ F 3 "" H 1600 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG019
+L footswitch-rescue:PWR_FLAG #FLG019
 U 1 1 54B50E4C
 P 1950 1500
 F 0 "#FLG019" H 1950 1595 30  0001 C CNN
@@ -430,9 +422,11 @@ F 3 "" H 1950 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR020
+L footswitch-rescue:+12V #PWR020
 U 1 1 575EFB81
 P 2050 4550
+AR Path="/575EFB81" Ref="#PWR020"  Part="1" 
+AR Path="/54830571/575EFB81" Ref="#PWR020"  Part="1" 
 F 0 "#PWR020" H 2050 4400 50  0001 C CNN
 F 1 "+12V" H 2050 4700 50  0000 C CNN
 F 2 "" H 2050 4550 60  0000 C CNN
@@ -441,7 +435,7 @@ F 3 "" H 2050 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG021
+L footswitch-rescue:PWR_FLAG #FLG021
 U 1 1 5760D14C
 P 6650 1550
 F 0 "#FLG021" H 6650 1645 30  0001 C CNN
@@ -452,7 +446,7 @@ F 3 "" H 6650 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR022
+L footswitch-rescue:GNDD #PWR022
 U 1 1 54E7EDE1
 P 6650 1700
 F 0 "#PWR022" H 6650 1450 60  0001 C CNN
@@ -555,7 +549,7 @@ Connection ~ 2650 1600
 Text Notes 1200 2050 0    50   ~ 0
 +5V power comes from USB and it's activated\nonly if +12V is not present, i.e. when the control\nchain cable is not plugged in
 $Comp
-L PWR_FLAG #FLG023
+L footswitch-rescue:PWR_FLAG #FLG023
 U 1 1 59675A29
 P 3950 1500
 F 0 "#FLG023" H 3950 1595 30  0001 C CNN

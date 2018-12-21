@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:power
-LIBS:regul
-LIBS:transistors
-LIBS:display
-LIBS:nxp_armmcu
-LIBS:philips
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -25,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GNDD #PWR069
+L footswitch-rescue:GNDD #PWR069
 U 1 1 55B26400
 P 3000 2300
 F 0 "#PWR069" H 3000 2050 60  0001 C CNN
@@ -36,7 +26,7 @@ F 3 "" H 3000 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L footswitch-rescue:C C9
 U 1 1 55B2640D
 P 4150 3800
 F 0 "C9" V 4000 3800 40  0000 L CNN
@@ -48,7 +38,7 @@ F 4 "C1608X7R1E104K080AA" H -800 -600 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L footswitch-rescue:R R18
 U 1 1 55B26415
 P 4150 3200
 F 0 "R18" V 4250 3200 40  0000 C CNN
@@ -60,7 +50,7 @@ F 4 "RMCF0603JT10K0" H -800 -600 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR070
+L footswitch-rescue:GNDD #PWR070
 U 1 1 55B2641C
 P 4150 4050
 F 0 "#PWR070" H 4150 3800 60  0001 C CNN
@@ -71,7 +61,7 @@ F 3 "" H 4150 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D2
+L footswitch-rescue:D D2
 U 1 1 55B26435
 P 3750 3500
 F 0 "D2" H 3750 3600 50  0000 C CNN
@@ -103,7 +93,7 @@ RJ45_TX-
 Text GLabel 8150 2250 0    50   Input ~ 0
 USB_PLUG_VCC
 $Comp
-L R R37
+L footswitch-rescue:R R37
 U 1 1 55B2B900
 P 8450 5200
 F 0 "R37" V 8350 5350 50  0000 C CNN
@@ -115,7 +105,7 @@ F 4 "RMCF0603JT1M00" H 5600 -1050 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR071
+L footswitch-rescue:GNDD #PWR071
 U 1 1 55B2B90F
 P 8450 5550
 F 0 "#PWR071" H 8450 5300 50  0001 C CNN
@@ -126,7 +116,7 @@ F 3 "" H 8450 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L footswitch-rescue:C C19
 U 1 1 55B2B908
 P 8250 5200
 F 0 "C19" V 8300 5000 50  0000 L CNN
@@ -148,7 +138,7 @@ USB_DM
 Text GLabel 9250 5700 2    50   BiDi ~ 0
 USB_DP
 $Comp
-L Q_NMOS_GSD Q6
+L footswitch-rescue:Q_NMOS_GSD Q6
 U 1 1 55B320E7
 P 3500 5900
 F 0 "Q6" H 3400 6000 50  0000 R CNN
@@ -160,7 +150,7 @@ F 4 "IRFML8244TRPBF" H -4700 950 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L footswitch-rescue:R R16
 U 1 1 55B320EF
 P 3600 6350
 F 0 "R16" V 3680 6350 50  0000 C CNN
@@ -191,7 +181,7 @@ Text GLabel 9650 1950 2    50   Input ~ 0
 RS485_TX-
 NoConn ~ 8850 5350
 $Comp
-L CONN_01X12 P6
+L footswitch-rescue:CONN_01X12 P6
 U 1 1 55B42C87
 P 8550 2000
 F 0 "P6" H 8550 2650 50  0000 C CNN
@@ -203,7 +193,7 @@ F 4 "68016-112HLF" H 8550 2000 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X12 P8
+L footswitch-rescue:CONN_01X12 P8
 U 1 1 55B42DAB
 P 9250 2000
 F 0 "P8" H 9250 2650 50  0000 C CNN
@@ -225,7 +215,7 @@ USB_DP_CPU
 Text GLabel 9650 2250 2    50   Output ~ 0
 USB_VCC
 $Comp
-L GNDD #PWR072
+L footswitch-rescue:GNDD #PWR072
 U 1 1 55B45519
 P 8250 2700
 F 0 "#PWR072" H 8250 2450 50  0001 C CNN
@@ -236,7 +226,7 @@ F 3 "" H 8250 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR073
+L footswitch-rescue:GNDD #PWR073
 U 1 1 55B4640F
 P 9550 2700
 F 0 "#PWR073" H 9550 2450 50  0001 C CNN
@@ -247,7 +237,7 @@ F 3 "" H 9550 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P7
+L footswitch-rescue:USB_OTG P7
 U 1 1 55B4A7CC
 P 8950 5050
 F 0 "P7" H 9275 4925 50  0000 C CNN
@@ -259,7 +249,7 @@ F 4 "10033526-N3212LF" H 5600 -1050 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L RJ45 J1
+L footswitch-rescue:RJ45 J1
 U 1 1 57607322
 P 2450 1850
 F 0 "J1" V 2900 1850 50  0000 L CNN
@@ -271,7 +261,7 @@ F 4 "54602-908LF" V 2450 1850 60  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L GNDD #PWR074
+L footswitch-rescue:GNDD #PWR074
 U 1 1 57607F8B
 P 3000 3700
 F 0 "#PWR074" H 3000 3450 60  0001 C CNN
@@ -290,7 +280,7 @@ RJ45_RX+
 Text GLabel 3000 3000 2    50   Output ~ 0
 RJ45_RX-
 $Comp
-L RJ45 J2
+L footswitch-rescue:RJ45 J2
 U 1 1 57607FA3
 P 2450 3250
 F 0 "J2" V 2900 3250 50  0000 L CNN
@@ -304,9 +294,11 @@ $EndComp
 NoConn ~ 2100 2400
 NoConn ~ 2100 3800
 $Comp
-L +12V #PWR075
+L footswitch-rescue:+12V #PWR075
 U 1 1 5760AF55
 P 9550 1300
+AR Path="/5760AF55" Ref="#PWR075"  Part="1" 
+AR Path="/55B25118/5760AF55" Ref="#PWR075"  Part="1" 
 F 0 "#PWR075" H 9550 1150 50  0001 C CNN
 F 1 "+12V" H 9568 1474 50  0000 C CNN
 F 2 "" H 9550 1300 60  0000 C CNN
@@ -315,7 +307,7 @@ F 3 "" H 9550 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L footswitch-rescue:R R26
 U 1 1 576041F9
 P 8000 2350
 F 0 "R26" V 8050 2550 50  0000 C CNN
@@ -327,7 +319,7 @@ F 4 "MCR03ERTF33R0" H 4000 -4850 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R27
+L footswitch-rescue:R R27
 U 1 1 57604201
 P 8000 2450
 F 0 "R27" V 8050 2650 50  0000 C CNN

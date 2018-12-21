@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:power
-LIBS:regul
-LIBS:transistors
-LIBS:display
-LIBS:nxp_armmcu
-LIBS:philips
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -25,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RC1602A-GHW-ESX DS1
+L footswitch-rescue:RC1602A-GHW-ESX DS1
 U 1 1 558A7276
 P 3700 2100
 F 0 "DS1" H 2900 2500 40  0000 C CNN
@@ -33,11 +23,12 @@ F 1 "ERM1602FS-6 3.3V" H 4250 2500 40  0000 C CNN
 F 2 "local-footprints:WC1602A" H 3700 2050 35  0000 C CIN
 F 3 "" H 3700 2100 60  0000 C CNN
 F 4 "ERM1602FS-6 3.3V" H 3700 2100 60  0001 C CNN "MPN"
+F 5 "3.3V display" H 3700 2100 50  0001 C CNN "Note"
 	1    3700 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR051
+L footswitch-rescue:+3.3V #PWR051
 U 1 1 558A75D0
 P 2700 2600
 F 0 "#PWR051" H 2700 2450 50  0001 C CNN
@@ -48,7 +39,7 @@ F 3 "" H 2700 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR052
+L footswitch-rescue:GNDD #PWR052
 U 1 1 558A75FC
 P 2950 2700
 F 0 "#PWR052" H 2950 2450 50  0001 C CNN
@@ -59,7 +50,7 @@ F 3 "" H 2950 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L footswitch-rescue:C C1
 U 1 1 558A7629
 P 2150 2950
 F 0 "C1" H 2175 3050 50  0000 L CNN
@@ -71,7 +62,7 @@ F 4 "C1608X7R1E104K080AA" H 2150 2950 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR053
+L footswitch-rescue:GNDD #PWR053
 U 1 1 558A7699
 P 2150 3300
 F 0 "#PWR053" H 2150 3050 50  0001 C CNN
@@ -82,7 +73,7 @@ F 3 "" H 2150 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR054
+L footswitch-rescue:GNDD #PWR054
 U 1 1 558A77CB
 P 3700 2700
 F 0 "#PWR054" H 3700 2450 50  0001 C CNN
@@ -93,7 +84,7 @@ F 3 "" H 3700 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q7
+L footswitch-rescue:Q_NMOS_GSD Q7
 U 1 1 558A78F3
 P 4850 2950
 F 0 "Q7" H 4750 2900 50  0000 R CNN
@@ -105,7 +96,7 @@ F 4 "2N7002P,215" H 0   0   50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR055
+L footswitch-rescue:GNDD #PWR055
 U 1 1 558A7B13
 P 4750 3250
 F 0 "#PWR055" H 4750 3000 50  0001 C CNN
@@ -116,7 +107,7 @@ F 3 "" H 4750 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
+L footswitch-rescue:R R19
 U 1 1 558A7C00
 P 4750 2400
 F 0 "R19" V 4830 2400 50  0000 C CNN
@@ -128,7 +119,7 @@ F 4 "RMCF0603JT100K" H 0   0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR056
+L footswitch-rescue:+3.3V #PWR056
 U 1 1 558A7C5A
 P 4750 2150
 F 0 "#PWR056" H 4750 2000 50  0001 C CNN
@@ -139,7 +130,7 @@ F 3 "" H 4750 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR057
+L footswitch-rescue:+3.3V #PWR057
 U 1 1 558A7D34
 P 4550 2850
 F 0 "#PWR057" H 4550 2700 50  0001 C CNN
@@ -150,7 +141,7 @@ F 3 "" H 4550 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RC1602A-GHW-ESX DS2
+L footswitch-rescue:RC1602A-GHW-ESX DS2
 U 1 1 558AA38A
 P 7750 2100
 F 0 "DS2" H 6950 2500 40  0000 C CNN
@@ -158,11 +149,12 @@ F 1 "ERM1602FS-6 3.3V" H 8300 2500 40  0000 C CNN
 F 2 "local-footprints:WC1602A" H 7750 2050 35  0000 C CIN
 F 3 "" H 7750 2100 60  0000 C CNN
 F 4 "ERM1602FS-6 3.3V" H 7750 2100 60  0001 C CNN "MPN"
+F 5 "3.3V display" H 7750 2100 50  0001 C CNN "Note"
 	1    7750 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR058
+L footswitch-rescue:+3.3V #PWR058
 U 1 1 558AA390
 P 6750 2600
 F 0 "#PWR058" H 6750 2450 50  0001 C CNN
@@ -173,7 +165,7 @@ F 3 "" H 6750 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR059
+L footswitch-rescue:GNDD #PWR059
 U 1 1 558AA396
 P 7000 2700
 F 0 "#PWR059" H 7000 2450 50  0001 C CNN
@@ -184,7 +176,7 @@ F 3 "" H 7000 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L footswitch-rescue:C C15
 U 1 1 558AA39C
 P 6200 2950
 F 0 "C15" H 6225 3050 50  0000 L CNN
@@ -196,7 +188,7 @@ F 4 "C1608X7R1E104K080AA" H 6200 2950 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR060
+L footswitch-rescue:GNDD #PWR060
 U 1 1 558AA3A8
 P 6200 3300
 F 0 "#PWR060" H 6200 3050 50  0001 C CNN
@@ -207,7 +199,7 @@ F 3 "" H 6200 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR061
+L footswitch-rescue:GNDD #PWR061
 U 1 1 558AA3AE
 P 7750 2700
 F 0 "#PWR061" H 7750 2450 50  0001 C CNN
@@ -218,7 +210,7 @@ F 3 "" H 7750 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q8
+L footswitch-rescue:Q_NMOS_GSD Q8
 U 1 1 558AA3B4
 P 8900 2950
 F 0 "Q8" H 8800 2900 50  0000 R CNN
@@ -230,7 +222,7 @@ F 4 "2N7002P,215" H 0   0   50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR062
+L footswitch-rescue:GNDD #PWR062
 U 1 1 558AA3BA
 P 8800 3250
 F 0 "#PWR062" H 8800 3000 50  0001 C CNN
@@ -241,7 +233,7 @@ F 3 "" H 8800 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R38
+L footswitch-rescue:R R38
 U 1 1 558AA3C1
 P 8800 2400
 F 0 "R38" V 8880 2400 50  0000 C CNN
@@ -253,7 +245,7 @@ F 4 "RMCF0603JT100K" H 0   0   50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR063
+L footswitch-rescue:+3.3V #PWR063
 U 1 1 558AA3C7
 P 8800 2150
 F 0 "#PWR063" H 8800 2000 50  0001 C CNN
@@ -264,7 +256,7 @@ F 3 "" H 8800 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR064
+L footswitch-rescue:+3.3V #PWR064
 U 1 1 558AA3CD
 P 8600 2850
 F 0 "#PWR064" H 8600 2700 50  0001 C CNN
@@ -275,7 +267,7 @@ F 3 "" H 8600 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L footswitch-rescue:C C2
 U 1 1 558AACB8
 P 2500 2950
 F 0 "C2" H 2525 3050 50  0000 L CNN
@@ -287,7 +279,7 @@ F 4 "GRM219R61E106KA12D" H 2500 2950 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L footswitch-rescue:C C16
 U 1 1 558AACEE
 P 6550 2950
 F 0 "C16" H 6575 3050 50  0000 L CNN
@@ -325,7 +317,7 @@ LCD_D5
 Text GLabel 8450 3900 2    50   BiDi ~ 0
 LCD_D4
 $Comp
-L C C3
+L footswitch-rescue:C C3
 U 1 1 578CBDC0
 P 2950 3900
 F 0 "C3" V 2900 4000 50  0000 L CNN
@@ -337,7 +329,7 @@ F 4 "C2012X7R1E105K125AB" H 2950 3900 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L footswitch-rescue:R R15
 U 1 1 578CCDA0
 P 3150 3900
 F 0 "R15" V 3230 3900 50  0000 C CNN
@@ -349,18 +341,19 @@ F 4 "RMCF0603JT2K00" H -1600 1500 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L footswitch-rescue:R R9
 U 1 1 578CDA36
 P 2700 3650
 F 0 "R9" V 2600 3650 50  0000 C CNN
 F 1 "2K4" V 2700 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2630 3650 30  0001 C CNN
 F 3 "" H 2700 3650 30  0000 C CNN
+F 4 "do not place" V 2700 3650 50  0001 C CNN "Note"
 	1    2700 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR065
+L footswitch-rescue:GNDD #PWR065
 U 1 1 578CDB27
 P 3050 4150
 F 0 "#PWR065" H 3050 3900 50  0001 C CNN
@@ -373,7 +366,7 @@ $EndComp
 Wire Wire Line
 	2950 2600 2950 2700
 Wire Wire Line
-	2700 2600 2700 3150
+	2700 2600 2700 2700
 Wire Wire Line
 	2700 3150 3050 3150
 Wire Wire Line
@@ -381,11 +374,11 @@ Wire Wire Line
 Wire Wire Line
 	2150 2800 2150 2700
 Wire Wire Line
-	2150 2700 2700 2700
+	2150 2700 2500 2700
 Wire Wire Line
 	2500 2800 2500 2700
 Wire Wire Line
-	2150 3100 2150 3300
+	2150 3100 2150 3200
 Wire Wire Line
 	2500 3100 2500 3200
 Wire Wire Line
@@ -393,7 +386,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2600 3550 2650
 Wire Wire Line
-	3550 2650 3850 2650
+	3550 2650 3650 2650
 Wire Wire Line
 	3850 2650 3850 2600
 Wire Wire Line
@@ -407,7 +400,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2650 4750 2650
 Wire Wire Line
-	4750 2550 4750 2750
+	4750 2550 4750 2650
 Wire Wire Line
 	4750 3150 4750 3250
 Wire Wire Line
@@ -439,7 +432,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2600 7000 2700
 Wire Wire Line
-	6750 2600 6750 3150
+	6750 2600 6750 2700
 Wire Wire Line
 	6750 3150 7100 3150
 Wire Wire Line
@@ -447,11 +440,11 @@ Wire Wire Line
 Wire Wire Line
 	6200 2800 6200 2700
 Wire Wire Line
-	6200 2700 6750 2700
+	6200 2700 6550 2700
 Wire Wire Line
 	6550 2800 6550 2700
 Wire Wire Line
-	6200 3100 6200 3300
+	6200 3100 6200 3200
 Wire Wire Line
 	6550 3100 6550 3200
 Wire Wire Line
@@ -459,7 +452,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 2600 7600 2650
 Wire Wire Line
-	7600 2650 7900 2650
+	7600 2650 7700 2650
 Wire Wire Line
 	7900 2650 7900 2600
 Wire Wire Line
@@ -473,7 +466,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 2650 8800 2650
 Wire Wire Line
-	8800 2550 8800 2750
+	8800 2550 8800 2650
 Wire Wire Line
 	8800 3150 8800 3250
 Wire Wire Line
@@ -531,22 +524,22 @@ Wire Wire Line
 Wire Wire Line
 	2950 4050 2950 4100
 Wire Wire Line
-	2950 4100 3150 4100
+	2950 4100 3050 4100
 Wire Wire Line
 	3150 4100 3150 4050
 Wire Wire Line
 	3050 4150 3050 4100
 Connection ~ 3050 4100
 Wire Wire Line
-	3150 2600 3150 3750
+	3150 2600 3150 3650
 Connection ~ 3150 3650
 Wire Wire Line
-	2850 3650 3150 3650
+	2850 3650 2950 3650
 Wire Wire Line
 	2950 3750 2950 3650
 Connection ~ 2950 3650
 $Comp
-L +3.3V #PWR066
+L footswitch-rescue:+3.3V #PWR066
 U 1 1 578CEAAB
 P 2450 3550
 F 0 "#PWR066" H 2450 3400 50  0001 C CNN
@@ -561,7 +554,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 3650 2450 3550
 $Comp
-L C C17
+L footswitch-rescue:C C17
 U 1 1 578CEDF7
 P 7000 3900
 F 0 "C17" V 6950 4000 50  0000 L CNN
@@ -573,7 +566,7 @@ F 4 "C2012X7R1E105K125AB" H 7000 3900 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R22
+L footswitch-rescue:R R22
 U 1 1 578CEDFE
 P 7200 3900
 F 0 "R22" V 7280 3900 50  0000 C CNN
@@ -585,18 +578,19 @@ F 4 "RMCF0603JT2K00" H 2450 1500 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R21
+L footswitch-rescue:R R21
 U 1 1 578CEE04
 P 6750 3650
 F 0 "R21" V 6650 3650 50  0000 C CNN
 F 1 "2K4" V 6750 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6680 3650 30  0001 C CNN
 F 3 "" H 6750 3650 30  0000 C CNN
+F 4 "do not place" V 6750 3650 50  0001 C CNN "Note"
 	1    6750 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR067
+L footswitch-rescue:GNDD #PWR067
 U 1 1 578CEE0A
 P 7100 4150
 F 0 "#PWR067" H 7100 3900 50  0001 C CNN
@@ -609,22 +603,22 @@ $EndComp
 Wire Wire Line
 	7000 4050 7000 4100
 Wire Wire Line
-	7000 4100 7200 4100
+	7000 4100 7100 4100
 Wire Wire Line
 	7200 4100 7200 4050
 Wire Wire Line
 	7100 4150 7100 4100
 Connection ~ 7100 4100
 Wire Wire Line
-	7200 2600 7200 3750
+	7200 2600 7200 3650
 Connection ~ 7200 3650
 Wire Wire Line
-	6900 3650 7200 3650
+	6900 3650 7000 3650
 Wire Wire Line
 	7000 3750 7000 3650
 Connection ~ 7000 3650
 $Comp
-L +3.3V #PWR068
+L footswitch-rescue:+3.3V #PWR068
 U 1 1 578CEE1D
 P 6500 3550
 F 0 "#PWR068" H 6500 3400 50  0001 C CNN
@@ -656,4 +650,44 @@ Wire Wire Line
 	7550 3600 7300 3600
 Wire Wire Line
 	7300 3600 7300 2600
+Wire Wire Line
+	2700 2700 2700 3150
+Wire Wire Line
+	2500 2700 2700 2700
+Wire Wire Line
+	2150 3200 2150 3300
+Wire Wire Line
+	3650 2650 3700 2650
+Wire Wire Line
+	3750 2650 3850 2650
+Wire Wire Line
+	3700 2650 3750 2650
+Wire Wire Line
+	4750 2650 4750 2750
+Wire Wire Line
+	6750 2700 6750 3150
+Wire Wire Line
+	6550 2700 6750 2700
+Wire Wire Line
+	6200 3200 6200 3300
+Wire Wire Line
+	7700 2650 7750 2650
+Wire Wire Line
+	7800 2650 7900 2650
+Wire Wire Line
+	7750 2650 7800 2650
+Wire Wire Line
+	8800 2650 8800 2750
+Wire Wire Line
+	3050 4100 3150 4100
+Wire Wire Line
+	3150 3650 3150 3750
+Wire Wire Line
+	2950 3650 3150 3650
+Wire Wire Line
+	7100 4100 7200 4100
+Wire Wire Line
+	7200 3650 7200 3750
+Wire Wire Line
+	7000 3650 7200 3650
 $EndSCHEMATC

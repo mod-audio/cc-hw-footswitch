@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:power
-LIBS:regul
-LIBS:transistors
-LIBS:display
-LIBS:nxp_armmcu
-LIBS:philips
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -25,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R1
+L footswitch-rescue:R R1
 U 1 1 54CBEC53
 P 1850 1850
 F 0 "R1" V 1930 1850 40  0000 C CNN
@@ -37,7 +27,7 @@ F 4 "RMCF0603JT10K0" H -200 200 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR039
+L footswitch-rescue:GNDD #PWR039
 U 1 1 54E65047
 P 1850 2350
 F 0 "#PWR039" H 1850 2100 60  0001 C CNN
@@ -48,7 +38,7 @@ F 3 "" H 1850 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P1
+L footswitch-rescue:CONN_01X02 P1
 U 1 1 54E6B5CA
 P 1550 2150
 F 0 "P1" H 1550 2300 50  0000 C CNN
@@ -56,11 +46,12 @@ F 1 "FOOT" V 1650 2150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 1550 2150 60  0001 C CNN
 F 3 "" H 1550 2150 60  0000 C CNN
 F 4 "M20-9960245" H -200 200 50  0001 C CNN "MPN"
+F 5 "place on the back side" H 1550 2150 50  0001 C CNN "Note"
 	1    1550 2150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR040
+L footswitch-rescue:+3.3V #PWR040
 U 1 1 556F3C3C
 P 1850 1600
 F 0 "#PWR040" H 1850 1450 50  0001 C CNN
@@ -71,7 +62,7 @@ F 3 "" H 1850 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR041
+L footswitch-rescue:+3.3V #PWR041
 U 1 1 557A9EA8
 P 8750 1500
 F 0 "#PWR041" H 8750 1350 50  0001 C CNN
@@ -82,7 +73,7 @@ F 3 "" H 8750 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L footswitch-rescue:R R23
 U 1 1 557AA39A
 P 8000 1600
 F 0 "R23" V 8080 1600 40  0000 C CNN
@@ -94,7 +85,7 @@ F 4 "RMCF0603JT220R" H 6050 -2800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED_RGB D5
+L footswitch-rescue:LED_RGB D5
 U 1 1 557AAC2C
 P 8450 1800
 F 0 "D5" H 8450 2250 50  0000 C CNN
@@ -106,7 +97,7 @@ F 4 "LTRBGFSF-ABCB-QKYO-Z" H 5950 -2800 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L footswitch-rescue:R R24
 U 1 1 557AADB8
 P 8000 1800
 F 0 "R24" V 8080 1800 40  0000 C CNN
@@ -118,7 +109,7 @@ F 4 "RMCF0603JT220R" H 6050 -2800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R25
+L footswitch-rescue:R R25
 U 1 1 557AAE1B
 P 8000 2000
 F 0 "R25" V 8080 2000 40  0000 C CNN
@@ -130,7 +121,7 @@ F 4 "RMCF0603JT220R" H 6050 -2800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L +3.3V #PWR042
+L footswitch-rescue:+3.3V #PWR042
 U 1 1 55899AA7
 P 8750 2500
 F 0 "#PWR042" H 8750 2350 50  0001 C CNN
@@ -141,7 +132,7 @@ F 3 "" H 8750 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L footswitch-rescue:R R28
 U 1 1 55899AB4
 P 8000 2600
 F 0 "R28" V 8080 2600 40  0000 C CNN
@@ -153,7 +144,7 @@ F 4 "RMCF0603JT220R" H 6050 -1800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED_RGB D6
+L footswitch-rescue:LED_RGB D6
 U 1 1 55899ABB
 P 8450 2800
 F 0 "D6" H 8450 3250 50  0000 C CNN
@@ -165,7 +156,7 @@ F 4 "LTRBGFSF-ABCB-QKYO-Z" H 5950 -1800 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L footswitch-rescue:R R29
 U 1 1 55899AC2
 P 8000 2800
 F 0 "R29" V 8080 2800 40  0000 C CNN
@@ -177,7 +168,7 @@ F 4 "RMCF0603JT220R" H 6050 -1800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R30
+L footswitch-rescue:R R30
 U 1 1 55899AC9
 P 8000 3000
 F 0 "R30" V 8080 3000 40  0000 C CNN
@@ -189,7 +180,7 @@ F 4 "RMCF0603JT220R" H 6050 -1800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L +3.3V #PWR043
+L footswitch-rescue:+3.3V #PWR043
 U 1 1 5589B19A
 P 8750 3500
 F 0 "#PWR043" H 8750 3350 50  0001 C CNN
@@ -200,7 +191,7 @@ F 3 "" H 8750 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R31
+L footswitch-rescue:R R31
 U 1 1 5589B1A7
 P 8000 3600
 F 0 "R31" V 8080 3600 40  0000 C CNN
@@ -212,7 +203,7 @@ F 4 "RMCF0603JT220R" H 6050 -800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED_RGB D7
+L footswitch-rescue:LED_RGB D7
 U 1 1 5589B1AE
 P 8450 3800
 F 0 "D7" H 8450 4250 50  0000 C CNN
@@ -224,7 +215,7 @@ F 4 "LTRBGFSF-ABCB-QKYO-Z" H 5950 -800 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L footswitch-rescue:R R32
 U 1 1 5589B1B5
 P 8000 3800
 F 0 "R32" V 8080 3800 40  0000 C CNN
@@ -236,7 +227,7 @@ F 4 "RMCF0603JT220R" H 6050 -800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R33
+L footswitch-rescue:R R33
 U 1 1 5589B1BC
 P 8000 4000
 F 0 "R33" V 8080 4000 40  0000 C CNN
@@ -248,7 +239,7 @@ F 4 "RMCF0603JT220R" H 6050 -800 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L +3.3V #PWR044
+L footswitch-rescue:+3.3V #PWR044
 U 1 1 5589B1DB
 P 8750 4500
 F 0 "#PWR044" H 8750 4350 50  0001 C CNN
@@ -259,7 +250,7 @@ F 3 "" H 8750 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R34
+L footswitch-rescue:R R34
 U 1 1 5589B1E8
 P 8000 4600
 F 0 "R34" V 8080 4600 40  0000 C CNN
@@ -271,7 +262,7 @@ F 4 "RMCF0603JT220R" H 6050 200 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED_RGB D8
+L footswitch-rescue:LED_RGB D8
 U 1 1 5589B1EF
 P 8450 4800
 F 0 "D8" H 8450 5250 50  0000 C CNN
@@ -283,7 +274,7 @@ F 4 "LTRBGFSF-ABCB-QKYO-Z" H 5950 200 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L footswitch-rescue:R R35
 U 1 1 5589B1F6
 P 8000 4800
 F 0 "R35" V 8080 4800 40  0000 C CNN
@@ -295,7 +286,7 @@ F 4 "RMCF0603JT220R" H 6050 200 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R36
+L footswitch-rescue:R R36
 U 1 1 5589B1FD
 P 8000 5000
 F 0 "R36" V 8080 5000 40  0000 C CNN
@@ -307,7 +298,7 @@ F 4 "RMCF0603JT220R" H 6050 200 50  0001 C CNN "MPN"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R11
+L footswitch-rescue:R R11
 U 1 1 5589C3DA
 P 2900 1850
 F 0 "R11" V 2980 1850 40  0000 C CNN
@@ -319,7 +310,7 @@ F 4 "RMCF0603JT10K0" H 850 200 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR045
+L footswitch-rescue:GNDD #PWR045
 U 1 1 5589C3E0
 P 2900 2350
 F 0 "#PWR045" H 2900 2100 60  0001 C CNN
@@ -330,7 +321,7 @@ F 3 "" H 2900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P4
+L footswitch-rescue:CONN_01X02 P4
 U 1 1 5589C3E7
 P 2600 2150
 F 0 "P4" H 2600 2300 50  0000 C CNN
@@ -338,11 +329,12 @@ F 1 "FOOT" V 2700 2150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2600 2150 60  0001 C CNN
 F 3 "" H 2600 2150 60  0000 C CNN
 F 4 "M20-9960245" H 850 200 50  0001 C CNN "MPN"
+F 5 "place on the back side" H 2600 2150 50  0001 C CNN "Note"
 	1    2600 2150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR046
+L footswitch-rescue:+3.3V #PWR046
 U 1 1 5589C3ED
 P 2900 1600
 F 0 "#PWR046" H 2900 1450 50  0001 C CNN
@@ -353,7 +345,7 @@ F 3 "" H 2900 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L footswitch-rescue:R R2
 U 1 1 5589C484
 P 1850 3250
 F 0 "R2" V 1930 3250 40  0000 C CNN
@@ -365,7 +357,7 @@ F 4 "RMCF0603JT10K0" H -200 1600 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR047
+L footswitch-rescue:GNDD #PWR047
 U 1 1 5589C48A
 P 1850 3750
 F 0 "#PWR047" H 1850 3500 60  0001 C CNN
@@ -376,7 +368,7 @@ F 3 "" H 1850 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P2
+L footswitch-rescue:CONN_01X02 P2
 U 1 1 5589C491
 P 1550 3550
 F 0 "P2" H 1550 3700 50  0000 C CNN
@@ -384,11 +376,12 @@ F 1 "FOOT" V 1650 3550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 1550 3550 60  0001 C CNN
 F 3 "" H 1550 3550 60  0000 C CNN
 F 4 "M20-9960245" H -200 1600 50  0001 C CNN "MPN"
+F 5 "place on the back side" H 1550 3550 50  0001 C CNN "Note"
 	1    1550 3550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR048
+L footswitch-rescue:+3.3V #PWR048
 U 1 1 5589C497
 P 1850 3000
 F 0 "#PWR048" H 1850 2850 50  0001 C CNN
@@ -399,7 +392,7 @@ F 3 "" H 1850 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L footswitch-rescue:R R12
 U 1 1 5589C571
 P 2900 3250
 F 0 "R12" V 2980 3250 40  0000 C CNN
@@ -411,7 +404,7 @@ F 4 "RMCF0603JT10K0" H 850 1600 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR049
+L footswitch-rescue:GNDD #PWR049
 U 1 1 5589C577
 P 2900 3750
 F 0 "#PWR049" H 2900 3500 60  0001 C CNN
@@ -422,7 +415,7 @@ F 3 "" H 2900 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P5
+L footswitch-rescue:CONN_01X02 P5
 U 1 1 5589C57E
 P 2600 3550
 F 0 "P5" H 2600 3700 50  0000 C CNN
@@ -430,11 +423,12 @@ F 1 "FOOT" V 2700 3550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2600 3550 60  0001 C CNN
 F 3 "" H 2600 3550 60  0000 C CNN
 F 4 "M20-9960245" H 850 1600 50  0001 C CNN "MPN"
+F 5 "place on the back side" H 2600 3550 50  0001 C CNN "Note"
 	1    2600 3550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR050
+L footswitch-rescue:+3.3V #PWR050
 U 1 1 5589C584
 P 2900 3000
 F 0 "#PWR050" H 2900 2850 50  0001 C CNN
@@ -461,13 +455,13 @@ Wire Wire Line
 Wire Wire Line
 	1850 2000 1850 2100
 Wire Wire Line
-	1750 2100 1950 2100
+	1750 2100 1850 2100
 Wire Wire Line
 	1850 1600 1850 1700
 Wire Wire Line
 	1850 2200 1850 2350
 Wire Wire Line
-	8750 1500 8750 2000
+	8750 1500 8750 1600
 Wire Wire Line
 	8750 2000 8650 2000
 Wire Wire Line
@@ -479,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2000 8250 2000
 Wire Wire Line
-	8750 2500 8750 3000
+	8750 2500 8750 2600
 Wire Wire Line
 	8750 3000 8650 3000
 Wire Wire Line
@@ -491,7 +485,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 3000 8250 3000
 Wire Wire Line
-	8750 3500 8750 4000
+	8750 3500 8750 3600
 Wire Wire Line
 	8750 4000 8650 4000
 Wire Wire Line
@@ -503,7 +497,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4000 8250 4000
 Wire Wire Line
-	8750 4500 8750 5000
+	8750 4500 8750 4600
 Wire Wire Line
 	8750 5000 8650 5000
 Wire Wire Line
@@ -519,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 2000 2900 2100
 Wire Wire Line
-	2800 2100 3000 2100
+	2800 2100 2900 2100
 Wire Wire Line
 	2900 1600 2900 1700
 Wire Wire Line
@@ -529,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 3400 1850 3500
 Wire Wire Line
-	1750 3500 1950 3500
+	1750 3500 1850 3500
 Wire Wire Line
 	1850 3000 1850 3100
 Wire Wire Line
@@ -539,7 +533,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3400 2900 3500
 Wire Wire Line
-	2800 3500 3000 3500
+	2800 3500 2900 3500
 Wire Wire Line
 	2900 3000 2900 3100
 Wire Wire Line
@@ -612,4 +606,28 @@ Wire Wire Line
 	8650 3600 8750 3600
 Wire Wire Line
 	8650 4600 8750 4600
+Wire Wire Line
+	1850 2100 1950 2100
+Wire Wire Line
+	8750 1800 8750 2000
+Wire Wire Line
+	8750 1600 8750 1800
+Wire Wire Line
+	8750 2800 8750 3000
+Wire Wire Line
+	8750 2600 8750 2800
+Wire Wire Line
+	8750 3800 8750 4000
+Wire Wire Line
+	8750 3600 8750 3800
+Wire Wire Line
+	8750 4800 8750 5000
+Wire Wire Line
+	8750 4600 8750 4800
+Wire Wire Line
+	2900 2100 3000 2100
+Wire Wire Line
+	1850 3500 1950 3500
+Wire Wire Line
+	2900 3500 3000 3500
 $EndSCHEMATC

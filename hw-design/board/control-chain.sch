@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:power
-LIBS:regul
-LIBS:transistors
-LIBS:display
-LIBS:nxp_armmcu
-LIBS:philips
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -25,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ISL83491 U1
+L footswitch-rescue:ISL83491 U1
 U 1 1 557A059C
 P 3450 2200
 F 0 "U1" H 3150 1600 50  0000 L CNN
@@ -37,7 +27,7 @@ F 4 "ISL83491IBZ" H -4550 -200 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR024
+L footswitch-rescue:GNDD #PWR024
 U 1 1 557D6D91
 P 3300 3000
 F 0 "#PWR024" H 3300 2750 60  0001 C CNN
@@ -48,7 +38,7 @@ F 3 "" H 3300 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR025
+L footswitch-rescue:+3.3V #PWR025
 U 1 1 557D9E83
 P 3600 1400
 F 0 "#PWR025" H 3600 1250 50  0001 C CNN
@@ -59,7 +49,7 @@ F 3 "" H 3600 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L footswitch-rescue:R R17
 U 1 1 557DF2C0
 P 4100 2850
 F 0 "R17" V 4180 2850 50  0000 C CNN
@@ -71,7 +61,7 @@ F 4 "RMCF0603JT10K0" H -4550 -200 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR026
+L footswitch-rescue:GNDD #PWR026
 U 1 1 557DFB58
 P 4100 3100
 F 0 "#PWR026" H 4100 2850 60  0001 C CNN
@@ -137,7 +127,7 @@ Connection ~ 3300 2950
 Connection ~ 3600 1450
 Connection ~ 4100 2600
 $Comp
-L R R40
+L footswitch-rescue:R R40
 U 1 1 59678A04
 P 4100 1650
 F 0 "R40" V 4180 1650 50  0000 C CNN
@@ -149,7 +139,7 @@ F 4 "RMCF0603JT10K0" H -4550 -1400 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR027
+L footswitch-rescue:+3.3V #PWR027
 U 1 1 59678AAB
 P 4100 1400
 F 0 "#PWR027" H 4100 1250 50  0001 C CNN

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# footswitch-rescue_+12V
+# +12V
 #
-DEF footswitch-rescue_+12V #PWR 0 0 Y Y 1 F P
+DEF +12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "footswitch-rescue_+12V" 0 140 50 H V C CNN
+F1 "+12V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_+3.3V
+# +3.3V
 #
-DEF footswitch-rescue_+3.3V #PWR 0 0 Y Y 1 F P
+DEF +3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "footswitch-rescue_+3.3V" 0 140 50 H V C CNN
+F1 "+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_+5V
+# +5V
 #
-DEF footswitch-rescue_+5V #PWR 0 0 Y Y 1 F P
+DEF +5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "footswitch-rescue_+5V" 0 140 50 H V C CNN
+F1 "+5V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -46,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_C
+# C
 #
-DEF footswitch-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "footswitch-rescue_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -68,11 +68,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_CONN_01X01
+# CONN_01X01
 #
-DEF footswitch-rescue_CONN_01X01 P 0 40 Y N 1 F N
+DEF CONN_01X01 P 0 40 Y N 1 F N
 F0 "P" 0 100 50 H V C CNN
-F1 "footswitch-rescue_CONN_01X01" 100 0 50 V V C CNN
+F1 "CONN_01X01" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -88,11 +88,11 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_CONN_01X02
+# CONN_01X02
 #
-DEF footswitch-rescue_CONN_01X02 P 0 40 Y N 1 F N
+DEF CONN_01X02 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "footswitch-rescue_CONN_01X02" 100 0 50 V V C CNN
+F1 "CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -110,11 +110,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_CONN_01X03
+# CONN_01X03
 #
-DEF footswitch-rescue_CONN_01X03 P 0 40 Y N 1 F N
+DEF CONN_01X03 P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "footswitch-rescue_CONN_01X03" 100 0 50 V V C CNN
+F1 "CONN_01X03" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -134,11 +134,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_CONN_01X12
+# CONN_01X12
 #
-DEF footswitch-rescue_CONN_01X12 P 0 40 Y N 1 F N
+DEF CONN_01X12 P 0 40 Y N 1 F N
 F0 "P" 0 650 50 H V C CNN
-F1 "footswitch-rescue_CONN_01X12" 100 0 50 V V C CNN
+F1 "CONN_01X12" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -176,11 +176,11 @@ X P9 9 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_CONN_02X02
+# CONN_02X02
 #
-DEF footswitch-rescue_CONN_02X02 P 0 1 Y N 1 F N
+DEF CONN_02X02 P 0 1 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "footswitch-rescue_CONN_02X02" 0 -150 50 H V C CNN
+F1 "CONN_02X02" 0 -150 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -202,11 +202,11 @@ X P4 4 250 -50 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_CONN_02X05
+# CONN_02X05
 #
-DEF footswitch-rescue_CONN_02X05 P 0 1 Y N 1 F N
+DEF CONN_02X05 P 0 1 Y N 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "footswitch-rescue_CONN_02X05" 0 -300 50 H V C CNN
+F1 "CONN_02X05" 0 -300 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -240,11 +240,11 @@ X P9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_CP1
+# CP1
 #
-DEF footswitch-rescue_CP1 C 0 10 N N 1 F N
+DEF CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "footswitch-rescue_CP1" 25 -100 50 H V L CNN
+F1 "CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -265,11 +265,11 @@ X ~ 2 0 -150 130 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_Crystal_Small
+# Crystal_Small
 #
-DEF footswitch-rescue_Crystal_Small Y 0 40 N N 1 F N
+DEF Crystal_Small Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "footswitch-rescue_Crystal_Small" 0 -100 50 H V C CNN
+F1 "Crystal_Small" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -284,11 +284,11 @@ X 2 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_D
+# D
 #
-DEF footswitch-rescue_D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "footswitch-rescue_D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -306,11 +306,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_D_Schottky
+# D_Schottky
 #
-DEF footswitch-rescue_D_Schottky D 0 40 N N 1 F N
+DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "footswitch-rescue_D_Schottky" 0 -100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -328,11 +328,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_FUSE
+# FUSE
 #
-DEF footswitch-rescue_FUSE F 0 10 Y Y 1 F N
+DEF FUSE F 0 10 Y Y 1 F N
 F0 "F" 100 50 50 H V C CNN
-F1 "footswitch-rescue_FUSE" -100 -50 50 H V C CNN
+F1 "FUSE" -100 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -343,11 +343,11 @@ X ~ 2 250 0 100 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_GNDD
+# GNDD
 #
-DEF footswitch-rescue_GNDD #PWR 0 0 Y Y 1 F P
+DEF GNDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "footswitch-rescue_GNDD" 0 -150 50 H V C CNN
+F1 "GNDD" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -356,11 +356,11 @@ X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_ISL83491
+# ISL83491
 #
-DEF footswitch-rescue_ISL83491 U 0 40 Y Y 1 F N
+DEF ISL83491 U 0 40 Y Y 1 F N
 F0 "U" -300 -600 50 H V L CNN
-F1 "footswitch-rescue_ISL83491" 0 600 50 H V L CNN
+F1 "ISL83491" 0 600 50 H V L CNN
 F2 "" 0 0 50 H I C CIN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -396,11 +396,11 @@ X Y 9 500 -100 150 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_LED_RGB
+# LED_RGB
 #
-DEF footswitch-rescue_LED_RGB D 0 0 Y Y 1 F N
+DEF LED_RGB D 0 0 Y Y 1 F N
 F0 "D" 0 425 50 H V C CNN
-F1 "footswitch-rescue_LED_RGB" 0 350 50 H V C CNN
+F1 "LED_RGB" 0 350 50 H V C CNN
 F2 "" 0 -50 50 H V C CNN
 F3 "" 0 -50 50 H V C CNN
 DRAW
@@ -439,11 +439,11 @@ X RA 6 200 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_LPC11U24FBD48_401
+# LPC11U24FBD48_401
 #
-DEF footswitch-rescue_LPC11U24FBD48_401 U 0 40 Y Y 1 F N
+DEF LPC11U24FBD48_401 U 0 40 Y Y 1 F N
 F0 "U" -1500 1400 50 H V C CNN
-F1 "footswitch-rescue_LPC11U24FBD48_401" 1200 1400 50 H V C CNN
+F1 "LPC11U24FBD48_401" 1200 1400 50 H V C CNN
 F2 "Housings_QFP:LQFP-80_12x12mm_Pitch0.5mm" 0 -1100 50 H V C CNN
 F3 "" -50 -50 60 H V C CNN
 $FPLIST
@@ -502,11 +502,11 @@ X PIO0_20/CT16B1_CAP0 9 1800 -800 150 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_Logo_Open_Hardware_Small
+# Logo_Open_Hardware_Small
 #
-DEF ~footswitch-rescue_Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
+DEF ~Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
-F1 "footswitch-rescue_Logo_Open_Hardware_Small" 0 -225 50 H I C CNN
+F1 "Logo_Open_Hardware_Small" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -514,11 +514,11 @@ P 277 0 1 0 132 -171 130 -170 125 -167 118 -162 109 -156 100 -150 93 -146 88 -14
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_NCP1117ST33T3G
+# NCP1117ST33T3G
 #
-DEF footswitch-rescue_NCP1117ST33T3G U 0 30 Y Y 1 F N
+DEF NCP1117ST33T3G U 0 30 Y Y 1 F N
 F0 "U" 0 250 40 H V C CNN
-F1 "footswitch-rescue_NCP1117ST33T3G" 0 200 40 H V C CNN
+F1 "NCP1117ST33T3G" 0 200 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -532,11 +532,11 @@ X VI 3 -400 50 150 R 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_PWR_FLAG
+# PWR_FLAG
 #
-DEF footswitch-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 50 H I C CNN
-F1 "footswitch-rescue_PWR_FLAG" 0 180 50 H V C CNN
+F1 "PWR_FLAG" 0 180 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -545,11 +545,11 @@ X pwr 1 0 0 0 U 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_Q_NMOS_GSD
+# Q_NMOS_GSD
 #
-DEF footswitch-rescue_Q_NMOS_GSD Q 0 0 Y N 1 F N
+DEF Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "footswitch-rescue_Q_NMOS_GSD" 650 -50 50 H V R CNN
+F1 "Q_NMOS_GSD" 650 -50 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -571,11 +571,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_Q_PMOS_GSD
+# Q_PMOS_GSD
 #
-DEF footswitch-rescue_Q_PMOS_GSD Q 0 0 Y N 1 F N
+DEF Q_PMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "footswitch-rescue_Q_PMOS_GSD" 650 -50 50 H V R CNN
+F1 "Q_PMOS_GSD" 650 -50 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -597,11 +597,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_Q_PNP_BEC
+# Q_PNP_BEC
 #
-DEF footswitch-rescue_Q_PNP_BEC Q 0 0 Y N 1 F N
+DEF Q_PNP_BEC Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "footswitch-rescue_Q_PNP_BEC" 600 -50 50 H V R CNN
+F1 "Q_PNP_BEC" 600 -50 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -616,11 +616,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_R
+# R
 #
-DEF footswitch-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "footswitch-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -634,11 +634,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_RC1602A-GHW-ESX
+# RC1602A-GHW-ESX
 #
-DEF footswitch-rescue_RC1602A-GHW-ESX DS 0 40 Y Y 1 F N
+DEF RC1602A-GHW-ESX DS 0 40 Y Y 1 F N
 F0 "DS" -800 400 40 H V C CNN
-F1 "footswitch-rescue_RC1602A-GHW-ESX" 550 400 40 H V C CNN
+F1 "RC1602A-GHW-ESX" 550 400 40 H V C CNN
 F2 "RC1602A" 0 -50 35 H V C CIN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -664,11 +664,11 @@ X DB2 9 50 -500 150 U 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_RJ45
+# RJ45
 #
-DEF footswitch-rescue_RJ45 J 0 40 Y Y 1 F N
+DEF RJ45 J 0 40 Y Y 1 F N
 F0 "J" 200 500 60 H V C CNN
-F1 "footswitch-rescue_RJ45" -150 500 60 H V C CNN
+F1 "RJ45" -150 500 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -694,11 +694,11 @@ X SHIELD 9 550 350 150 L 50 30 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_USB_OTG
+# USB_OTG
 #
-DEF footswitch-rescue_USB_OTG P 0 40 Y Y 1 F N
+DEF USB_OTG P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "footswitch-rescue_USB_OTG" 0 200 50 H V C CNN
+F1 "USB_OTG" 0 200 50 H V C CNN
 F2 "" -50 -100 60 V V C CNN
 F3 "" -50 -100 60 V V C CNN
 $FPLIST
@@ -720,11 +720,11 @@ X shield 6 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# footswitch-rescue_VCC
+# VCC
 #
-DEF footswitch-rescue_VCC #PWR 0 0 Y Y 1 F P
+DEF VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "footswitch-rescue_VCC" 0 150 50 H V C CNN
+F1 "VCC" 0 150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

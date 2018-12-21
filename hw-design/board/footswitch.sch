@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:power
-LIBS:regul
-LIBS:transistors
-LIBS:display
-LIBS:nxp_armmcu
-LIBS:philips
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -73,13 +63,14 @@ F0 "USB" 60
 F1 "usb.sch" 60
 $EndSheet
 $Comp
-L Logo_Open_Hardware_Small #LOGO1
+L footswitch-rescue:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5968E2D7
 P 1500 4450
 F 0 "#LOGO1" H 1500 4725 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 1500 4225 50  0001 C CNN
 F 2 "Symbols:OSHW-Logo2_9.8x8mm_SilkScreen" H 1500 4450 50  0001 C CNN
 F 3 "" H 1500 4450 50  0001 C CNN
+F 4 "not a component" H 1500 4450 50  0001 C CNN "Note"
 	1    1500 4450
 	1    0    0    -1  
 $EndComp

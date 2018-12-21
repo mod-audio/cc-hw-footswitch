@@ -1,4 +1,4 @@
-update=Thu 13 Jul 2017 12:16:09 PM -03
+update=Fri 21 Dec 2018 05:12:42 PM CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,15 +43,4 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../lib
-[eeschema/libraries]
-LibName1=kicad-library/library/conn
-LibName2=kicad-library/library/device
-LibName3=kicad-library/library/interface
-LibName4=kicad-library/library/power
-LibName5=kicad-library/library/regul
-LibName6=kicad-library/library/transistors
-LibName7=kicad-library/library/display
-LibName8=local-library/nxp_armmcu
-LibName9=local-library/philips
-LibName10=local-library/graphic_symbols
+LibDir=

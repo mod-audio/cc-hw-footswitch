@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:power
-LIBS:regul
-LIBS:transistors
-LIBS:display
-LIBS:nxp_armmcu
-LIBS:philips
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:footswitch-cache
 EELAYER 26 0
 EELAYER END
@@ -25,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GNDD #PWR028
+L footswitch-rescue:GNDD #PWR028
 U 1 1 54E5DFA7
 P 8850 4900
 F 0 "#PWR028" H 8850 4650 60  0001 C CNN
@@ -36,18 +26,19 @@ F 3 "" H 8850 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X05 P9
+L footswitch-rescue:CONN_02X05 P9
 U 1 1 54F2A3AF
 P 9300 4600
 F 0 "P9" H 9300 4900 50  0000 C CNN
 F 1 "SWD" H 9300 4300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 9300 3400 60  0001 C CNN
 F 3 "" H 9300 3400 60  0000 C CNN
+F 4 "do not place" H 9300 4600 50  0001 C CNN "Note"
 	1    9300 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_Small Y1
+L footswitch-rescue:Crystal_Small Y1
 U 1 1 556F5630
 P 3500 4700
 F 0 "Y1" H 3500 4800 50  0000 C CNN
@@ -59,7 +50,7 @@ F 4 "FOXSDLF/120-20" H -350 650 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C6
+L footswitch-rescue:C C6
 U 1 1 556F5E37
 P 3200 5050
 F 0 "C6" H 3225 5150 50  0000 L CNN
@@ -71,7 +62,7 @@ F 4 "C1608C0G1H180J080AA" H -350 650 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L footswitch-rescue:C C4
 U 1 1 556F5E74
 P 2950 5050
 F 0 "C4" H 2975 5150 50  0000 L CNN
@@ -83,7 +74,7 @@ F 4 "C1608C0G1H180J080AA" H -350 650 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR029
+L footswitch-rescue:GNDD #PWR029
 U 1 1 556F6417
 P 2950 5250
 F 0 "#PWR029" H 2950 5000 50  0001 C CNN
@@ -94,7 +85,7 @@ F 3 "" H 2950 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR030
+L footswitch-rescue:GNDD #PWR030
 U 1 1 556F65EC
 P 3200 5250
 F 0 "#PWR030" H 3200 5000 50  0001 C CNN
@@ -105,7 +96,7 @@ F 3 "" H 3200 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR031
+L footswitch-rescue:+3.3V #PWR031
 U 1 1 55705A80
 P 5550 1500
 F 0 "#PWR031" H 5550 1350 50  0001 C CNN
@@ -116,7 +107,7 @@ F 3 "" H 5550 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L footswitch-rescue:C C13
 U 1 1 557DBC57
 P 5250 1850
 F 0 "C13" V 5300 1650 40  0000 L CNN
@@ -128,7 +119,7 @@ F 4 "C1608X7R1E104K080AA" H -350 650 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L C C14
+L footswitch-rescue:C C14
 U 1 1 557DBEEF
 P 5850 1850
 F 0 "C14" V 5900 1650 40  0000 L CNN
@@ -140,7 +131,7 @@ F 4 "C1608X7R1E104K080AA" H -350 650 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR032
+L footswitch-rescue:GNDD #PWR032
 U 1 1 557DC875
 P 5250 2100
 F 0 "#PWR032" H 5250 1850 50  0001 C CNN
@@ -151,7 +142,7 @@ F 3 "" H 5250 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR033
+L footswitch-rescue:GNDD #PWR033
 U 1 1 557DCAD9
 P 5850 2100
 F 0 "#PWR033" H 5850 1850 50  0001 C CNN
@@ -162,7 +153,7 @@ F 3 "" H 5850 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR034
+L footswitch-rescue:GNDD #PWR034
 U 1 1 557DD01E
 P 5550 5400
 F 0 "#PWR034" H 5550 5150 50  0001 C CNN
@@ -173,18 +164,19 @@ F 3 "" H 5550 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P3
+L footswitch-rescue:CONN_01X03 P3
 U 1 1 557F309A
 P 1800 2850
 F 0 "P3" H 1800 3100 50  0000 C CNN
 F 1 "CHAIN" V 1900 2850 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1800 2850 60  0001 C CNN
 F 3 "" H 1800 2850 60  0000 C CNN
+F 4 "do not place" H 1800 2850 50  0001 C CNN "Note"
 	1    1800 2850
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR035
+L footswitch-rescue:GNDD #PWR035
 U 1 1 557F3440
 P 2050 3000
 F 0 "#PWR035" H 2050 2750 50  0001 C CNN
@@ -195,7 +187,7 @@ F 3 "" H 2050 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R39
+L footswitch-rescue:R R39
 U 1 1 558018EB
 P 9300 2150
 F 0 "R39" V 9400 2150 50  0000 C CNN
@@ -207,7 +199,7 @@ F 4 "RMCF0603JT10K0" H -700 650 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR036
+L footswitch-rescue:+3.3V #PWR036
 U 1 1 55802FA1
 P 9300 1900
 F 0 "#PWR036" H 9300 1750 50  0001 C CNN
@@ -218,7 +210,7 @@ F 3 "" H 9300 1900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR037
+L footswitch-rescue:GNDD #PWR037
 U 1 1 55803C49
 P 9300 2900
 F 0 "#PWR037" H 9300 2650 50  0001 C CNN
@@ -229,7 +221,7 @@ F 3 "" H 9300 2900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C21
+L footswitch-rescue:C C21
 U 1 1 55804D28
 P 9300 2650
 F 0 "C21" V 9350 2500 40  0000 L CNN
@@ -241,7 +233,7 @@ F 4 "C1608X7R1E104K080AA" H -700 650 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR038
+L footswitch-rescue:GNDD #PWR038
 U 1 1 55806665
 P 9650 2650
 F 0 "#PWR038" H 9650 2400 50  0001 C CNN
@@ -348,18 +340,19 @@ Text GLabel 7500 3650 2    50   Output ~ 0
 LED_B4
 NoConn ~ 3750 3650
 $Comp
-L CONN_01X02 P10
+L footswitch-rescue:CONN_01X02 P10
 U 1 1 575FD477
 P 9900 2450
 F 0 "P10" H 9850 2300 50  0000 C CNN
 F 1 "CPU_RESET" V 10000 2450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" H 9900 2450 60  0001 C CNN
 F 3 "" H 9900 2450 60  0000 C CNN
+F 4 "do not place" H 9900 2450 50  0001 C CNN "Note"
 	1    9900 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 4500 8850 4900
+	8850 4500 8850 4600
 Wire Wire Line
 	9550 4800 9750 4800
 Wire Wire Line
@@ -373,13 +366,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 4750 3700 4850
 Wire Wire Line
-	3700 4850 3200 4850
+	3700 4850 3500 4850
 Wire Wire Line
 	3200 4850 3200 4900
 Wire Wire Line
 	2950 4900 2950 4550
 Wire Wire Line
-	2950 4550 3700 4550
+	2950 4550 3500 4550
 Wire Wire Line
 	3700 4550 3700 4650
 Wire Wire Line
@@ -397,7 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 2250 5450 1550
 Wire Wire Line
-	5250 1550 5850 1550
+	5250 1550 5450 1550
 Wire Wire Line
 	5650 1550 5650 2250
 Wire Wire Line
@@ -415,7 +408,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 5250 5450 5350
 Wire Wire Line
-	5450 5350 5650 5350
+	5450 5350 5550 5350
 Wire Wire Line
 	5650 5350 5650 5250
 Wire Wire Line
@@ -453,7 +446,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2000 9300 1900
 Wire Wire Line
-	9300 2300 9300 2500
+	9300 2300 9300 2400
 Wire Wire Line
 	9300 2800 9300 2900
 Wire Wire Line
@@ -520,13 +513,13 @@ Wire Wire Line
 Wire Wire Line
 	7350 4750 7500 4750
 Wire Wire Line
-	9050 2400 9700 2400
+	9050 2400 9300 2400
 Wire Wire Line
 	9700 2500 9650 2500
 Wire Wire Line
 	9650 2500 9650 2650
 $Comp
-L LPC11U24FBD48/401 U3
+L footswitch-rescue:LPC11U24FBD48_401 U3
 U 1 1 556F3A3A
 P 5550 3750
 F 0 "U3" H 4050 5150 50  0000 C CNN
@@ -547,4 +540,24 @@ CHAIN_RE
 Wire Wire Line
 	3750 3350 3600 3350
 NoConn ~ 7350 4850
+Wire Wire Line
+	8850 4600 8850 4800
+Wire Wire Line
+	8850 4800 8850 4900
+Wire Wire Line
+	3500 4550 3700 4550
+Wire Wire Line
+	3500 4850 3200 4850
+Wire Wire Line
+	5550 1550 5650 1550
+Wire Wire Line
+	5450 1550 5550 1550
+Wire Wire Line
+	5650 1550 5850 1550
+Wire Wire Line
+	5550 5350 5650 5350
+Wire Wire Line
+	9300 2400 9300 2500
+Wire Wire Line
+	9300 2400 9700 2400
 $EndSCHEMATC
