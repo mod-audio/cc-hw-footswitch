@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L footswitch-rescue:CONN_01X01 H1
+L footswitch-rescue:CONN_01X01-footswitch-rescue H1
 U 1 1 55B19E56
 P 1850 1800
 F 0 "H1" H 1850 1900 50  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "not a component" H 1850 1800 50  0001 C CNN "Note"
 	0    1    1    0   
 $EndComp
 $Comp
-L footswitch-rescue:CONN_01X01 H3
+L footswitch-rescue:CONN_01X01-footswitch-rescue H3
 U 1 1 55B19FA4
 P 2100 1800
 F 0 "H3" H 2100 1900 50  0000 C CNN
@@ -39,7 +39,7 @@ F 4 "not a component" H 2100 1800 50  0001 C CNN "Note"
 	0    1    1    0   
 $EndComp
 $Comp
-L footswitch-rescue:CONN_01X01 H5
+L footswitch-rescue:CONN_01X01-footswitch-rescue H5
 U 1 1 55B1A020
 P 2350 1800
 F 0 "H5" H 2350 1900 50  0000 C CNN
@@ -51,7 +51,7 @@ F 4 "not a component" H 2350 1800 50  0001 C CNN "Note"
 	0    1    1    0   
 $EndComp
 $Comp
-L footswitch-rescue:CONN_01X01 H2
+L footswitch-rescue:CONN_01X01-footswitch-rescue H2
 U 1 1 55B1A026
 P 1850 2300
 F 0 "H2" H 1850 2400 50  0000 C CNN
@@ -63,7 +63,7 @@ F 4 "not a component" H 1850 2300 50  0001 C CNN "Note"
 	0    1    1    0   
 $EndComp
 $Comp
-L footswitch-rescue:CONN_01X01 H4
+L footswitch-rescue:CONN_01X01-footswitch-rescue H4
 U 1 1 55B1A078
 P 2100 2300
 F 0 "H4" H 2100 2400 50  0000 C CNN
@@ -75,7 +75,7 @@ F 4 "not a component" H 2100 2300 50  0001 C CNN "Note"
 	0    1    1    0   
 $EndComp
 $Comp
-L footswitch-rescue:CONN_01X01 H6
+L footswitch-rescue:CONN_01X01-footswitch-rescue H6
 U 1 1 55B1A07E
 P 2350 2300
 F 0 "H6" H 2350 2400 50  0000 C CNN
@@ -89,7 +89,7 @@ $EndComp
 Text Notes 1450 1350 0    100  ~ 0
 BOARD STANDOFF
 $Comp
-L footswitch-rescue:CONN_02X02 H7
+L footswitch-rescue:CONN_02X02-footswitch-rescue H7
 U 1 1 55B1AED0
 P 4200 1850
 F 0 "H7" H 4200 2000 50  0000 C CNN
@@ -101,7 +101,7 @@ F 4 "Keystone 7790" H 4200 1850 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L footswitch-rescue:CONN_02X02 H8
+L footswitch-rescue:CONN_02X02-footswitch-rescue H8
 U 1 1 55B1B1A5
 P 4950 1850
 F 0 "H8" H 4950 2000 50  0000 C CNN

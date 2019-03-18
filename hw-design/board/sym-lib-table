@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name footswitch-rescue)(type Legacy)(uri ${KIPRJMOD}/footswitch-rescue.lib)(options "")(descr ""))
+)

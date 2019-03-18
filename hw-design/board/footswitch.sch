@@ -63,7 +63,7 @@ F0 "USB" 60
 F1 "usb.sch" 60
 $EndSheet
 $Comp
-L footswitch-rescue:Logo_Open_Hardware_Small #LOGO1
+L footswitch-rescue:Logo_Open_Hardware_Small-footswitch-rescue #LOGO1
 U 1 1 5968E2D7
 P 1500 4450
 F 0 "#LOGO1" H 1500 4725 50  0001 C CNN

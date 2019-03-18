@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L footswitch-rescue:R R20
+L footswitch-rescue:R-footswitch-rescue R20
 U 1 1 55B4E33A
 P 5350 2100
 F 0 "R20" V 5250 2100 50  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "RMCF0603JT100R" H 1300 -4350 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L footswitch-rescue:VCC #PWR076
+L footswitch-rescue:VCC-footswitch-rescue #PWR076
 U 1 1 55B4E341
 P 5000 1950
 F 0 "#PWR076" H 5000 1800 50  0001 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 5000 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L footswitch-rescue:Q_PNP_BEC Q2
+L footswitch-rescue:Q_PNP_BEC-footswitch-rescue Q2
 U 1 1 55B4E348
 P 2700 2450
 F 0 "Q2" H 3000 2450 50  0000 R CNN
@@ -50,7 +50,7 @@ F 4 "BC857B,215" H 350 -4650 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L footswitch-rescue:R R5
+L footswitch-rescue:R-footswitch-rescue R5
 U 1 1 55B4E350
 P 2150 2450
 F 0 "R5" V 2230 2450 50  0000 C CNN
@@ -62,7 +62,7 @@ F 4 "MCR03ERTF3001" H 350 -4650 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L footswitch-rescue:R R7
+L footswitch-rescue:R-footswitch-rescue R7
 U 1 1 55B4E358
 P 2400 2200
 F 0 "R7" V 2480 2200 50  0000 C CNN
@@ -74,7 +74,7 @@ F 4 "MCR03ERTF2402" H 350 -4650 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L footswitch-rescue:+3.3V #PWR077
+L footswitch-rescue:+3.3V-footswitch-rescue #PWR077
 U 1 1 55B4E35F
 P 2400 1850
 F 0 "#PWR077" H 2400 1700 50  0001 C CNN
@@ -85,7 +85,7 @@ F 3 "" H 2400 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L footswitch-rescue:R R14
+L footswitch-rescue:R-footswitch-rescue R14
 U 1 1 55B4E366
 P 3100 2700
 F 0 "R14" V 3180 2700 50  0000 C CNN
@@ -97,7 +97,7 @@ F 4 "MCR03ERTF1501" H 350 -4650 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L footswitch-rescue:C C11
+L footswitch-rescue:C-footswitch-rescue C11
 U 1 1 55B4E36E
 P 5000 2350
 F 0 "C11" H 5025 2450 50  0000 L CNN
@@ -109,7 +109,7 @@ F 4 "C1608X7R1E104K080AA" H 1250 -4350 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L footswitch-rescue:GNDD #PWR078
+L footswitch-rescue:GNDD-footswitch-rescue #PWR078
 U 1 1 55B4E375
 P 5000 2550
 F 0 "#PWR078" H 5000 2300 50  0001 C CNN
@@ -132,7 +132,7 @@ USB_VCC
 Text GLabel 2100 4000 0    50   Input ~ 0
 USB_VCC
 $Comp
-L footswitch-rescue:Q_NMOS_GSD Q3
+L footswitch-rescue:Q_NMOS_GSD-footswitch-rescue Q3
 U 1 1 578D24B0
 P 2700 4000
 F 0 "Q3" H 2600 4050 50  0000 R CNN
@@ -144,7 +144,7 @@ F 4 "2N7002P,215" H -6200 1050 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L footswitch-rescue:R R6
+L footswitch-rescue:R-footswitch-rescue R6
 U 1 1 578D27BF
 P 2300 4300
 F 0 "R6" V 2380 4300 50  0000 C CNN
@@ -156,7 +156,7 @@ F 4 "RMCF0603JT100K" H 250 -2550 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L footswitch-rescue:GNDD #PWR079
+L footswitch-rescue:GNDD-footswitch-rescue #PWR079
 U 1 1 578D2C8E
 P 2300 4550
 F 0 "#PWR079" H 2300 4300 50  0001 C CNN
@@ -171,7 +171,7 @@ FS1
 Text GLabel 2950 3700 2    50   Output ~ 0
 ISP_TRIGGER
 $Comp
-L footswitch-rescue:+3.3V #PWR080
+L footswitch-rescue:+3.3V-footswitch-rescue #PWR080
 U 1 1 578D3853
 P 2800 3200
 F 0 "#PWR080" H 2800 3050 50  0001 C CNN
@@ -227,7 +227,7 @@ Wire Wire Line
 	2950 3700 2800 3700
 Connection ~ 2800 3700
 $Comp
-L footswitch-rescue:R R10
+L footswitch-rescue:R-footswitch-rescue R10
 U 1 1 578D3A95
 P 2800 3450
 F 0 "R10" V 2880 3450 50  0000 C CNN
